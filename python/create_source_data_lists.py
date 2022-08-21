@@ -52,4 +52,5 @@ def create_source_data_lists(langcode):
                     f.write("%s\n" % url)
 
 
-create_source_data_lists(langcode)
+if __name__ == '__main__':
+    create_source_data_lists(langcode)
