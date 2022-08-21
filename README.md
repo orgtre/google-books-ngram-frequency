@@ -9,3 +9,11 @@ The full list of the corpora for which n-gram frequency lists are provided is: E
 Customizable Python code which reproduces the lists is also included.
 
 The content of this repository is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
+
+
+## Python code
+
+Optionally, start by running `create_source_data_lists.py` from the repository root directory to recreate the `source-data` folder with lists of links to the Google source data files.
+
+
+

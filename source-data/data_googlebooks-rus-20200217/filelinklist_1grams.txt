@@ -1,0 +1,2 @@
+http://storage.googleapis.com/books/ngrams/books/20200217/rus/1-00000-of-00002.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/rus/1-00001-of-00002.gz

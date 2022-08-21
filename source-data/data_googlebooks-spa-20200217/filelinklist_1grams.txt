@@ -1,0 +1,3 @@
+http://storage.googleapis.com/books/ngrams/books/20200217/spa/1-00000-of-00003.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/spa/1-00001-of-00003.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/spa/1-00002-of-00003.gz

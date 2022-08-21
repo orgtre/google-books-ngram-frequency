@@ -1,0 +1,8 @@
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00000-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00001-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00002-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00003-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00004-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00005-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00006-of-00008.gz
+http://storage.googleapis.com/books/ngrams/books/20200217/ger/1-00007-of-00008.gz
