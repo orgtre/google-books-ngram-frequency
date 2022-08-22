@@ -131,7 +131,6 @@ langcode = {"english": "eng", "english-us": "eng-us", "english-gb": "eng-gb",
             "french": "fre", "german": "ger", "hebrew": "heb", 
             "italian": "ita", "russian": "rus", "spanish": "spa"}
 
-
 def urllistfile(lang, n):
     return f"source-data/data_googlebooks-{langcode[lang]}-20200217/filelinklist_{n}grams.txt"
 
@@ -146,7 +145,6 @@ def tmp_path(lang):
         os.makedirs(path)
 
     return path
-
 
 def per_gz_file_path(lang):
 
