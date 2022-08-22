@@ -1,0 +1,2 @@
+*.gz.csv
+!ngrams/more/english/most_freq_ngrams_per_gz_file/ngrams_1-00006-of-00024.gz.csv

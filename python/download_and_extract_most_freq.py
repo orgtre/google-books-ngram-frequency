@@ -140,7 +140,7 @@ def totalcounts_1_file(lang):
 
 def tmp_path(lang):
 
-    path = f"ngrams/other/{lang}/tmp"
+    path = f"ngrams/more/{lang}/tmp"
 
     if not os.path.exists(path):
         os.makedirs(path)
@@ -150,7 +150,7 @@ def tmp_path(lang):
 
 def per_gz_file_path(lang):
 
-    path = f"ngrams/other/{lang}/most_freq_ngrams_per_gz_file"
+    path = f"ngrams/more/{lang}/most_freq_ngrams_per_gz_file"
 
     if not os.path.exists(path):
         os.makedirs(path)
