@@ -76,6 +76,9 @@ def per_gz_file_path(lang):
 
     return path
 
+def extra_1grams_to_exclude_file(n):
+    return f"source-data/extra_ngrams_to_exclude/extra_{n}grams_to_exclude.csv"
+
 def check_if_too_much_truncated(lang, n, d):
 
     global max_min_freq_per_file
@@ -372,7 +375,7 @@ def gather_and_clean(lang, n):
 
     upcases_to_keep = {key: [] for key in all_langs}
     upcases_to_keep['german'] = ["DDR", "AG", "BRD"]
-    upcases_to_keep['english'] = ["a", "I", "God", "American", "English", "Jesus", "British", "European",
+    upcases_to_keep['english'] = ["I", "God", "American", "English", "Jesus", "British", "European",
                                   "America", "French", "China", "German", "Europe", "Christ", "England",
                                   "Chrstian", "Bible", "June", "Chinese", "India", "July", "African",
                                   "April", "January", "September", "Indian", "December", "Africa",
@@ -407,6 +410,8 @@ def gather_and_clean(lang, n):
     # remove most one-character words
 
     onechars_to_keep = {key: [] for key in all_langs}
+    onechars_to_keep['english'] = ["a", "I"]
+    onechars_to_keep['english-fiction'] = onechars_to_keep['english']
     onechars_to_keep['french'] = ["à", "a", "y"]
     onechars_to_keep['russian'] = ["а", "б", "в", "ж", "и", "к", "о", "с", "у", "я"]
 
@@ -418,8 +423,10 @@ def gather_and_clean(lang, n):
     # remove contractions for some langagues
     # TODO remove for other languages too?
     if lang in ['german', 'russian']:
-        d[d.ngram.str.contains(r"'")]
         d = remove_pattern(d, r"'")
+
+    if lang in ['english-fiction']:
+        d = remove_pattern(d, r"^'")    
 
 
     # remove entries with non-word characters other than "'" and " "
@@ -435,35 +442,26 @@ def gather_and_clean(lang, n):
     d = remove_pattern(d, r"[0-9]")
 
 
-    # manually remove any remaining unwanted words 
-    # e.g. names of persons, wrong language words, some abbrevations without a dot
-
-    words_to_remove = {key: [] for key in all_langs}
-    words_to_remove['german'] = \
-        ["of", "'s", "et", "al", "to", "la", "Peter", "New", "is", "Rn", "Thomas", "Paul", 
-         "for", "on", "York", "Anna", "Maria", "London", "that", "be", "en", "David", "le",
-         "Georg", "Franz", "Tom", "Johann", "cm", "mm", "it", "Daniel", "Christian", "Frank", 
-         "Richard", "he", "di", "by", "Walter", "kg", "Alexander", "Klaus", "fie", "Otto",
-         "men", "social", "ift", "fo", "Alex", "Werner", "no", "Jack", "ge", "se", "James", 
-         "Hermann", "at", "you", "Sam", "mg", "Goethe", "Jan", "Carl", "Jean", "from", "or",
-         "Rhodan", "Miss", "kg", "Julia", "ver", "les", "Kant", "el", "Eva", "non", "Adam", 
-         "do"]
-    # checked until word 3222
-
-    d = remove_entries(d, words_to_remove[lang])
+    # manually remove any remaining unwanted ngrams
+    # e.g. names of persons, wrong language words, some abbrevations without a dot, copyright notices    
+    extra_ngrams_to_exclude = \
+        {key: pd.read_csv(extra_1grams_to_exclude_file(key)).to_dict('list') for key in ns}    
+    d = remove_entries(d, extra_ngrams_to_exclude[n][lang])
 
 
-    # get dataframe of removed words
+    # save dataframe of removed words
     drem = dfull[~dfull.ngram.isin(d.ngram)]
+    drem = drem.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
+    drem = drem[drem.freq >= d.iloc[number_of_most_freq[lang][n]-1, 1]]
+    drem.to_csv(f"ngrams/more/{lang}/{n}grams_{lang}_2_removed.csv", index=False)
 
     
+    # save final output
     d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
     check_if_too_much_truncated(lang, n, d)
     d[:number_of_most_freq[lang][n]].to_csv(f"ngrams/{n}grams_{lang}.csv", index=False)
 
-    drem = drem.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
-    drem = drem[drem.freq >= d.iloc[number_of_most_freq[lang][n]-1, 1]]
-    drem.to_csv(f"ngrams/more/{lang}/{n}grams_{lang}_2_removed.csv", index=False)
+    
 
 
 def gather_and_clean_all():
