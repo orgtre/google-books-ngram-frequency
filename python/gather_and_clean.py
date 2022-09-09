@@ -301,12 +301,30 @@ def replace_pattern_and_group(d, pattern, replacement):
     d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
     return d
 
+
 def remove_entries(d, entries):
     '''Remove 'entries', updating 'freq_words_removed'.'''
     global freq_words_removed
     freq_words_removed += d[d['ngram'].isin(entries)].freq.sum()
     d = d[~d['ngram'].isin(entries)]
     return d
+
+
+def get_total_number_of_1grams(lang):
+    global freq_words_added
+    global freq_words_removed    
+    f = open(totalcounts_1_file(lang))
+    line = f.readline()
+    tot = line.strip().split("\t")
+    tot = pd.DataFrame({"joint": tot})
+    tot = tot['joint'].str.split(",", expand=True)
+    del tot[2]
+    del tot[3]
+    tot.columns = ["year", "total_number"]
+    tot = tot.astype(int)
+    total_in_period = sum(tot.total_number[tot.year.isin(range(year_start, year_end+1))])
+    total_in_period = total_in_period + freq_words_added - freq_words_removed
+    return total_in_period
 
 
 def gather_and_clean(lang, n):
@@ -455,13 +473,19 @@ def gather_and_clean(lang, n):
     drem = drem[drem.freq >= d.iloc[number_of_most_freq[lang][n]-1, 1]]
     drem.to_csv(f"ngrams/more/{lang}/{n}grams_{lang}_2_removed.csv", index=False)
 
-    
-    # save final output
-    d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
-    check_if_too_much_truncated(lang, n, d)
-    d[:number_of_most_freq[lang][n]].to_csv(f"ngrams/{n}grams_{lang}.csv", index=False)
 
-    
+    # add rank and cumshare
+    d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
+    if n == 1:
+        d['rank'] = range(1, len(d)+1)
+        d['share'] = d['freq'] / get_total_number_of_1grams(lang)
+        d['cumshare'] = d['share'].cumsum()
+        del d['share']
+        d = d[['ngram', 'rank', 'freq', 'cumshare']]
+
+    # save final output    
+    check_if_too_much_truncated(lang, n, d)
+    d[:number_of_most_freq[lang][n]].to_csv(f"ngrams/{n}grams_{lang}.csv", index=False, float_format='%.3f')
 
 
 def gather_and_clean_all():
