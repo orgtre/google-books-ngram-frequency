@@ -77,7 +77,7 @@ def per_gz_file_path(lang):
     return path
 
 def extra_1grams_to_exclude_file(n):
-    return f"source-data/extra_ngrams_to_exclude/extra_{n}grams_to_exclude.csv"
+    return f"python/extra_ngrams_to_exclude/extra_{n}grams_to_exclude.csv"
 
 def check_if_too_much_truncated(lang, n, d):
 
