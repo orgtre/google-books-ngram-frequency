@@ -17,9 +17,9 @@ year_end = 2019
 
 # List of languages for which frequency lists should be extracted
 langs = ["chinese_simplified", "english", "english-fiction", "french", "german", "hebrew", "italian", "russian", "spanish"]
-# each element has to be one of "english", "english-us", "english-gb", 
-# "english-fiction", "chinese_simplified", "french", "german", 
-# "hebrew", "italian", "russian", or "spanish"
+## each element has to be one of "english", "english-us", "english-gb", 
+## "english-fiction", "chinese_simplified", "french", "german", 
+## "hebrew", "italian", "russian", or "spanish"
 
 # Final number of most frequent ngrams to keep for each n
 number_of_most_freq = {"chinese_simplified": {1: 10000, 2: 5000, 3: 3000, 4: 1000, 5: 1000},
@@ -215,8 +215,8 @@ def merge_upcase_lowcase(d, cutoff):
 
     first_letter = d['ngram'].str[:1]
     later_letters = d['ngram'].str[1:]
-    dup = d[first_letter.str.isupper()]
-    dup['ngramlow'] = first_letter[first_letter.str.isupper()].str.lower() + later_letters[first_letter.str.isupper()]
+    dup = d.loc[first_letter.str.isupper(), ['ngram', 'freq']]
+    dup['ngramlow'] = first_letter.loc[first_letter.str.isupper()].str.lower() + later_letters.loc[first_letter.str.isupper()]
     # merging it like this ignores words that are all cap, since they'd cause problems later and are few enough to ignore
 
     del first_letter
@@ -484,7 +484,7 @@ def gather_and_clean_all():
 # run
 
 if __name__ == '__main__':
-gather_and_clean_all()
+    gather_and_clean_all()
 
 
 ###############################################################################
