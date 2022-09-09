@@ -32,12 +32,9 @@ year_end = 2019
 # When processing each .gz individual file, for each n,
 # discard ngrams occurring less frequently than given here;
 # should be chosen small enough so that none of the 'number_of_most_freq'
-# most frequent ngrams are discarded; however,
+# most frequent ngrams are discarded (set in gather_and_clean.py); however,
 # the code will run faster the larger these numbers
 min_freq_to_keep = {1: 1000, 2: 1000, 3: 1000, 4: 1000, 5: 1000}
-
-# Final number of most frequent ngrams to keep for each n
-number_of_most_freq = {1: 10000, 2: 5000, 3: 3000, 4: 1000, 5: 1000}
 
 # Make sure we are in right repository when running code (other paths are relative)
 # os.chdir("my-path-to/google-books-ngram-frequency")
