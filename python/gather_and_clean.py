@@ -482,7 +482,8 @@ def gather_and_clean(lang, n):
         d['cumshare'] = d['share'].cumsum()
         del d['share']
         d = d[['ngram', 'rank', 'freq', 'cumshare']]
-
+        
+    
     # save final output    
     check_if_too_much_truncated(lang, n, d)
     d[:number_of_most_freq[lang][n]].to_csv(f"ngrams/{n}grams_{lang}.csv", index=False, float_format='%.3f')

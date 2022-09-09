@@ -15,7 +15,7 @@ nmax = 5
 
 
 def create_source_data_lists(langcode):
-    """This function creates the directories "src/data_googlebooks-*"
+    """This function creates the directories "source-data/data_googlebooks-*"
     and fills them with files holding the urls of each gz file.
     For 1-grams, the totalcounts file is also added.
     Only needs to be run if Google changes the urls."""

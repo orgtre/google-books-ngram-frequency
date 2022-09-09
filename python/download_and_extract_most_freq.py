@@ -36,7 +36,7 @@ year_end = 2019
 # the code will run faster the larger these numbers
 min_freq_to_keep = {1: 1000, 2: 1000, 3: 1000, 4: 1000, 5: 1000}
 
-# Make sure we are in right repository when running code (other paths are relative)
+# Make sure we are in right directory when running code (other paths are relative)
 # os.chdir("my-path-to/google-books-ngram-frequency")
 
 # Number of cores to run on in parallel
