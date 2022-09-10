@@ -55,6 +55,17 @@ langcode = {"english": "eng", "english-us": "eng-us", "english-gb": "eng-gb",
             "french": "fre", "german": "ger", "hebrew": "heb", 
             "italian": "ita", "russian": "rus", "spanish": "spa"}
 
+onechars_to_keep = pd.read_csv(f"python/extra_settings/onechars_to_keep.csv").to_dict('list')
+onechars_to_keep = {key: [x for x in onechars_to_keep[key] if x == x] for key in onechars_to_keep}
+
+upcases_to_keep = pd.read_csv(f"python/extra_settings/upcases_to_keep.csv").to_dict('list')
+upcases_to_keep = {key: [x for x in upcases_to_keep[key] if x == x] for key in upcases_to_keep}
+
+extra_ngrams_to_exclude = \
+    {n: pd.read_csv(f"python/extra_settings/extra_{n}grams_to_exclude.csv").to_dict('list') for n in ns}
+extra_ngrams_to_exclude = \
+    {n: {key: [x for x in df[key] if x == x] for key in df} for n in extra_ngrams_to_exclude}
+
 def totalcounts_1_file(lang):
     return f"source-data/data_googlebooks-{langcode[lang]}-20200217/totalcounts_1.txt"
 
@@ -75,9 +86,6 @@ def per_gz_file_path(lang):
         os.makedirs(path)
 
     return path
-
-def extra_1grams_to_exclude_file(n):
-    return f"python/extra_ngrams_to_exclude/extra_{n}grams_to_exclude.csv"
 
 def check_if_too_much_truncated(lang, n, d):
 
@@ -370,12 +378,10 @@ def gather_and_clean(lang, n):
 
 
     # handle entries ending with "_"
-
     d = replace_pattern_and_group(d, pattern=r"_$", replacement="")
 
 
     # merge upcase and lowcase
-
     d = merge_upcase_lowcase(d, 0.92)
 
 
@@ -384,39 +390,11 @@ def gather_and_clean(lang, n):
 
 
     # remove entries with only punctuation and numbers
-
     punctuation_and_numbers_regex = r"^[ _\W0-9]+$"
     d = remove_pattern(d, punctuation_and_numbers_regex)
 
 
     # handle uppercase words
-
-    upcases_to_keep = {key: [] for key in all_langs}
-    upcases_to_keep['german'] = ["DDR", "AG", "BRD"]
-    upcases_to_keep['english'] = ["I", "God", "American", "English", "Jesus", "British", "European",
-                                  "America", "French", "China", "German", "Europe", "Christ", "England",
-                                  "Chrstian", "Bible", "June", "Chinese", "India", "July", "African",
-                                  "April", "January", "September", "Indian", "December", "Africa",
-                                  "October", "August", "Germany", "Israel", "November", "February",
-                                  "Americans", "UK", "California", "Jewish", "Japan", "Canada",
-                                  "Japanese", "Britain", "Greek", "Roman", "Russian", "Spanish"]
-    upcases_to_keep['english-fiction'] = upcases_to_keep['english']
-    upcases_to_keep['french'] = ["France", "Europe", "Afrique", "Allemagne", "Londres", "Angleterre",
-                                 "Italie", "Amérique", "Chine", "Espagne", "Israël", "Russie", "Noël",
-                                 "Canada", "Orient", "Bretagne", "Bruxelles", "Algérie", "Inde", "Asie",
-                                 "Belgique", "Égypte", "Occident", "Japon", "Congo", "Maroc", "Moscou",
-                                 "Autriche", "Brésil", "Venise", "Pologne", "Platon", "Moïse", "Aristote",
-                                 "Cameroun" "Turquie", "Provence", "Sénégal", "Méditerranée", "Mexique",
-                                 "Syrie", "American", "Australie", "Athènes", "Alpes", "Suède", "Grèce",
-                                 "Normandie", "Tunisie", "Liban", "Socrate", "Hongrie", "Alsace", "Guinée",
-                                 "Rhin", "Californie", "Palestine", "Indes", "Barcelone", "Danemark",
-                                 "Munich", "Arabie", "Norvège", "Roumanie", "Lénine", "Maghreb", "Indochine",
-                                 "Beyrouth", "Pérou", "Finlande", "Libye", "Soudan", "Colombie", "Haïti",
-                                 "URSS", "ADN", "ONU",
-                                 "'S"]
-    # d[d.ngram.str.contains(r"[A-ZÀ-Ü]")].to_csv(f"{tmp_path(lang)}/ngrams_{n}_tmp.csv", index=False)
-    # checked for for words to keep up to entry 1000
-
     if n == 1:
         if lang in ['german']:
             upcase_regex = r"^[A-ZÀ-Ü]+$"
@@ -425,15 +403,8 @@ def gather_and_clean(lang, n):
         d = remove_pattern(d, upcase_regex, upcases_to_keep[lang])
 
 
-    # remove most one-character words
-
-    onechars_to_keep = {key: [] for key in all_langs}
-    onechars_to_keep['english'] = ["a", "I"]
-    onechars_to_keep['english-fiction'] = onechars_to_keep['english']
-    onechars_to_keep['french'] = ["à", "a", "y"]
-    onechars_to_keep['russian'] = ["а", "б", "в", "ж", "и", "к", "о", "с", "у", "я"]
-
-    if lang != 'chinese_simplified':        
+    # remove most one-character words    
+    if n == 1 and lang != 'chinese_simplified':     
         onechar_regex = r"^.$"
         d = remove_pattern(d, onechar_regex, onechars_to_keep[lang])
 
@@ -450,20 +421,25 @@ def gather_and_clean(lang, n):
     # remove entries with non-word characters other than "'" and " "
     # TODO this needs to be changed, especially for n-grams with n > 1
     if lang == 'russian':
-        nonword_regex = r"[^\w' -,]"
+        nonword_regex = r"[^\w', -]"
+    elif lang == 'hebrew':
+        nonword_regex = r"[^\w' \",]"
     else:
         nonword_regex = r"[^\w' ,]"
-        d = remove_pattern(d, nonword_regex)
+    d = remove_pattern(d, nonword_regex)
 
 
     # remove entries with numbers
     d = remove_pattern(d, r"[0-9]")
 
 
+    # remove entries in wrong alphabet
+    if lang in ['chinese_simplified"', 'hebrew', 'russian']:
+        d = remove_pattern(d, r"[a-zA-Z]")
+    
+    
     # manually remove any remaining unwanted ngrams
     # e.g. names of persons, wrong language words, some abbrevations without a dot, copyright notices    
-    extra_ngrams_to_exclude = \
-        {key: pd.read_csv(extra_1grams_to_exclude_file(key)).to_dict('list') for key in ns}    
     d = remove_entries(d, extra_ngrams_to_exclude[n][lang])
 
 
