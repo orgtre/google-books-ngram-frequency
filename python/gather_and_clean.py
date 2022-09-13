@@ -64,7 +64,7 @@ upcases_to_keep = {key: [x for x in upcases_to_keep[key] if x == x] for key in u
 extra_ngrams_to_exclude = \
     {n: pd.read_csv(f"python/extra_settings/extra_{n}grams_to_exclude.csv").to_dict('list') for n in ns}
 extra_ngrams_to_exclude = \
-    {n: {key: [x for x in df[key] if x == x] for key in df} for n in extra_ngrams_to_exclude}
+    {n: {key: [x for x in extra_ngrams_to_exclude[n][key] if x == x] for key in extra_ngrams_to_exclude[n]} for n in extra_ngrams_to_exclude}
 
 def totalcounts_1_file(lang):
     return f"source-data/data_googlebooks-{langcode[lang]}-20200217/totalcounts_1.txt"
@@ -167,7 +167,7 @@ def split_contractions(d, dother):
     larger n-grams to the corresponding dataframe in 'dother'.
     Examples of contractions are qu'il and c'est.
     Return a touple of the modified 'd' and 'dother'.'''
-
+    
     dt = d.ngram.str.split(" ", expand=True)
     n = dt.shape[1]
 
@@ -479,7 +479,7 @@ def gather_and_clean_all():
             
 
 
-###############################################################################
+#######################################################n ########################
 # run
 
 if __name__ == '__main__':
