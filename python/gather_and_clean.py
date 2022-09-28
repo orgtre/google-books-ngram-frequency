@@ -516,14 +516,13 @@ def gather_and_clean(lang, n):
                 index=False)
 
 
-    # add rank and cumshare
+    # add cumshare
     d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
     if n == 1:
-        d['rank'] = range(1, len(d)+1)
         d['share'] = d['freq'] / get_total_number_of_1grams(lang)
         d['cumshare'] = d['share'].cumsum()
         del d['share']
-        d = d[['ngram', 'rank', 'freq', 'cumshare']]
+        d = d[['ngram', 'freq', 'cumshare']]
         
     
     # save final output    
