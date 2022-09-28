@@ -420,7 +420,7 @@ def gather_and_clean(lang, n):
 
     # split contractions
 
-    if lang == 'french':
+    if lang in ['french', 'italian']:
 
         d, dother = split_contractions(d, dother)
 
