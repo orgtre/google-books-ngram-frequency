@@ -470,7 +470,7 @@ ngram,freq,cumshare,en
 גוריון,13370,0.34,Gurion
 לעומת,13368,0.34,Vs
 מעל,13355,0.34,above
-הלא,13353,0.341,isn&#39;t it
+הלא,13353,0.341,isn't it
 בנושא,13350,0.341,on the subject
 מדי,13306,0.341,every
 ניטשה,13303,0.341,Nietzsche
@@ -498,12 +498,12 @@ ngram,freq,cumshare,en
 פעמים,12801,0.346,twice
 האור,12786,0.346,the light
 עלינו,12757,0.346,on us
-ג',12716,0.346,third&#39;
+ג',12716,0.346,third'
 הלכה,12713,0.347,went
 מול,12712,0.347,Opposite
 בתורה,12712,0.347,Torah
 מאד,12709,0.347,very
-וזהו,12673,0.347,And that&#39;s it
+וזהו,12673,0.347,And that's it
 העברית,12623,0.348,the hebrew
 השנה,12585,0.348,this year
 מצרים,12584,0.348,Egypt
@@ -944,7 +944,7 @@ ngram,freq,cumshare,en
 "ע""ש",7668,0.416,moth
 משמע,7662,0.416,hearing
 לאורך,7661,0.416,along
-ייתכן,7652,0.416,It&#39;s possible
+ייתכן,7652,0.416,It's possible
 הפלשתינית,7651,0.416,the Palestinian
 הספרות,7651,0.417,the literature
 בעצמו,7619,0.417,himself
@@ -1182,7 +1182,7 @@ ngram,freq,cumshare,en
 הפלשתינים,6424,0.443,The Palestinians
 המהרש,6421,0.443,the farmer
 ךכ,6420,0.443,so much
-ונראה,6420,0.443,and we&#39;ll see
+ונראה,6420,0.443,and we'll see
 מדינה,6417,0.443,Country
 מדברי,6407,0.443,desert
 מדינת,6407,0.443,State
@@ -1427,7 +1427,7 @@ ngram,freq,cumshare,en
 אפללו,5512,0.466,darkened
 המילים,5509,0.466,the words
 שרק,5505,0.466,whistled
-שכך,5504,0.466,That&#39;s it
+שכך,5504,0.466,That's it
 גיל,5501,0.466,age
 וכמה,5494,0.466,and how much
 מרגיש,5480,0.466,feels
@@ -1822,7 +1822,7 @@ ngram,freq,cumshare,en
 מאמרים,4641,0.498,articles
 יחידות,4636,0.498,singularity
 לדברי,4636,0.498,according to
-שנעשה,4632,0.498,let&#39;s do
+שנעשה,4632,0.498,let's do
 מחאמיד,4624,0.498,Mahamid
 לראשונה,4620,0.498,first
 זהב,4620,0.498,gold
@@ -2125,7 +2125,7 @@ ngram,freq,cumshare,en
 שב,4160,0.519,sit down
 המאמר,4160,0.519,the article
 בכלי,4159,0.519,in the vessel
-ששם,4159,0.519,that&#39;s where
+ששם,4159,0.519,that's where
 נח,4157,0.519,Noah
 חטא,4153,0.519,sin
 בפולין,4152,0.519,in Poland
@@ -2755,7 +2755,7 @@ ngram,freq,cumshare,en
 חיובי,3430,0.557,Positive
 ואחרים,3429,0.557,and others
 ליהודים,3428,0.557,to the Jews
-עייי,3427,0.557,I&#39;m sorry
+עייי,3427,0.557,I'm sorry
 יכולתי,3424,0.557,I could
 המונח,3423,0.557,the term
 טבנקין,3420,0.557,Tabenkin
@@ -3135,7 +3135,7 @@ ngram,freq,cumshare,en
 עלייה,3131,0.577,Immigration
 הרוב,3130,0.577,the majority
 מציין,3130,0.577,indicating
-תויהל,3130,0.577,You&#39;ll be fooled
+תויהל,3130,0.577,You'll be fooled
 שפה,3130,0.577,language
 עזרה,3129,0.577,help
 אידאולוגית,3128,0.577,ideological
@@ -3258,12 +3258,12 @@ ngram,freq,cumshare,en
 חלקו,3061,0.583,part of it
 בהר,3061,0.583,in the mountain
 דקיי,3061,0.583,Decay
-"לפסה""נ",3059,0.583,to Pesha&#39;an
+"לפסה""נ",3059,0.583,to Pesha'an
 סלין,3058,0.583,Celine
 רעה,3057,0.583,evil
 להחזיר,3055,0.583,to return
 לכב,3054,0.583,turn off
-שנתבאר,3052,0.583,Let&#39;s be clear
+שנתבאר,3052,0.583,Let's be clear
 שהגיע,3050,0.583,who arrived
 יוספוס,3050,0.583,Josephus
 השידור,3049,0.584,the transmission
@@ -4151,7 +4151,7 @@ ngram,freq,cumshare,en
 השמונים,2583,0.623,the eighties
 הקולוניאלי,2582,0.623,the colonial
 השיח,2582,0.623,the bush
-"שע""י",2582,0.623,Sha&#39;i
+"שע""י",2582,0.623,Sha'i
 נזק,2582,0.623,damage
 נשא,2580,0.623,carried
 הנורמות,2580,0.623,the norms
@@ -4701,7 +4701,7 @@ ngram,freq,cumshare,en
 רפואי,2352,0.645,medical
 בפניו,2352,0.645,in his face
 מפד,2352,0.645,Paying off
-"השי""ת",2351,0.645,The Shi&#39;at
+"השי""ת",2351,0.645,The Shi'at
 המטפלת,2351,0.645,the nanny
 המזכירות,2351,0.645,the secretariat
 ניצולים,2351,0.645,Survivors
@@ -5607,7 +5607,7 @@ ngram,freq,cumshare,en
 המידות,2071,0.677,The measurements
 הפקידות,2070,0.677,the clerkships
 הבדואי,2070,0.677,Bedouin
-הפרקליטות,2070,0.677,the prosecutor&#39;s office
+הפרקליטות,2070,0.677,the prosecutor's office
 שחקן,2069,0.677,player
 לבעל,2069,0.677,to the husband
 הסוכה,2069,0.677,the sukkah
@@ -5760,7 +5760,7 @@ ngram,freq,cumshare,en
 האווירה,2035,0.682,the atmosphere
 בעוה,2035,0.682,In a moment
 הראויה,2035,0.682,the proper
-נתבאר,2034,0.682,Let&#39;s explain
+נתבאר,2034,0.682,Let's explain
 מהדעת,2034,0.682,from the mind
 שעוד,2033,0.682,that more
 הערכים,2032,0.682,the values
@@ -6720,7 +6720,7 @@ ngram,freq,cumshare,en
 והרשב,1830,0.711,and the reshab
 לארגון,1830,0.711,to the organization
 משועשע,1830,0.711,amused
-"השו""ע",1830,0.711,The Shu&#39;a
+"השו""ע",1830,0.711,The Shu'a
 הירדנית,1829,0.711,Jordanian
 ויהיה,1829,0.711,and will be
 ישירה,1829,0.711,direct
@@ -6754,7 +6754,7 @@ ngram,freq,cumshare,en
 םויה,1825,0.712,soy
 כעורך,1825,0.712,as an editor
 חושבים,1825,0.712,thinking
-ושלא,1825,0.712,And it didn&#39;t
+ושלא,1825,0.712,And it didn't
 לגאולה,1825,0.712,for redemption
 הנמצאים,1825,0.712,which are
 לראשות,1824,0.712,to lead
@@ -7123,7 +7123,7 @@ ngram,freq,cumshare,en
 הבהיר,1760,0.723,clarified
 האסתטיקה,1760,0.723,the aesthetics
 תפקידה,1760,0.723,her role
-דהוא,1760,0.723,That&#39;s it
+דהוא,1760,0.723,That's it
 רשאכ,1760,0.723,Rashak
 המהפכני,1760,0.723,the revolutionary
 והכל,1759,0.723,and all
@@ -7375,7 +7375,7 @@ ngram,freq,cumshare,en
 הקשור,1721,0.73,related
 לבנו,1721,0.73,our heart
 התקציב,1721,0.73,the budget
-שיח',1720,0.73,discourse&#39;
+שיח',1720,0.73,discourse'
 םילוכי,1720,0.73,Send me
 ממזריטש,1720,0.73,From Mezritish
 פורמליות,1720,0.73,formality
@@ -7762,7 +7762,7 @@ ngram,freq,cumshare,en
 שהבריטים,1668,0.74,that the British
 המובהק,1667,0.74,the definite
 השיבה,1667,0.74,Return
-צנעא,1667,0.74,Sana&#39;a
+צנעא,1667,0.74,Sana'a
 הפלסטיק,1667,0.74,The plastic
 כתובה,1667,0.74,written
 מבטאת,1667,0.74,express
@@ -9558,7 +9558,7 @@ ngram,freq,cumshare,en
 להלוטין,1444,0.785,to hell
 בניתוח,1444,0.785,in surgery
 מעכב,1444,0.785,delaying
-בפרקליטות,1444,0.785,at the prosecutor&#39;s office
+בפרקליטות,1444,0.785,at the prosecutor's office
 הצפונית,1444,0.785,the northern
 החלל,1443,0.785,the space
 המוכרת,1443,0.785,the seller

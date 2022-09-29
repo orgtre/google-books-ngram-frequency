@@ -707,7 +707,7 @@ ngram,freq,cumshare,en
 强,51674,0.584,powerful
 建,51662,0.584,establish
 英国,51622,0.584,U.K.
-不会,51424,0.585,Won&#39;t
+不会,51424,0.585,Won't
 出口,51371,0.585,Export
 关键,51263,0.585,The essential
 件,51091,0.585,piece
@@ -794,7 +794,7 @@ ngram,freq,cumshare,en
 符合,46040,0.604,meets the
 构成,46014,0.604,constitute
 困难,45996,0.604,difficulty
-人大,45900,0.604,National People&#39;s Congress
+人大,45900,0.604,National People's Congress
 问,45825,0.605,ask
 观念,45790,0.605,concept
 手段,45599,0.605,means
@@ -869,7 +869,7 @@ ngram,freq,cumshare,en
 本身,41531,0.619,itself
 先,41473,0.619,First
 还有,41416,0.62,and also
-不要,41302,0.62,don&#39;t want
+不要,41302,0.62,don't want
 并不,41193,0.62,not
 依据,41191,0.62,in accordance with
 更多,41157,0.62,More
@@ -1702,11 +1702,11 @@ ngram,freq,cumshare,en
 依赖,19783,0.731,rely
 人士,19771,0.732,person
 组合,19769,0.732,combination
-民生,19766,0.732,people&#39;s livelihood
+民生,19766,0.732,people's livelihood
 收费,19759,0.732,TOLL
 其次,19758,0.732,Second
 购,19744,0.732,purchase
-中华人民共和国,19729,0.732,People&#39;s Republic of China
+中华人民共和国,19729,0.732,People's Republic of China
 约束,19713,0.732,constraint
 普及,19704,0.732,universal
 年底,19703,0.732,end of the year
@@ -2042,7 +2042,7 @@ ngram,freq,cumshare,en
 政权,16176,0.76,regime
 有力,16173,0.76,powerful
 留,16164,0.76,Keep
-检察院,16143,0.76,Prosecutor&#39;s Office
+检察院,16143,0.76,Prosecutor's Office
 发明,16131,0.76,invention
 股权,16105,0.76,Equity
 调控,16103,0.761,regulation
@@ -2507,7 +2507,7 @@ ngram,freq,cumshare,en
 学历,12387,0.791,Education
 互,12382,0.791,mutual
 付出,12381,0.791,pay
-空,12379,0.791,null
+空,12379,0.791,
 后果,12379,0.791,as a result of
 有机,12372,0.791,organic
 收到,12359,0.791,receive
@@ -2540,7 +2540,7 @@ ngram,freq,cumshare,en
 殖民,12199,0.793,colonial
 违规,12194,0.793,Violation
 录,12192,0.793,record
-人民政府,12191,0.793,people&#39;s government
+人民政府,12191,0.793,people's government
 广阔,12187,0.793,broad
 简称,12182,0.793,short name
 系数,12176,0.793,coefficient
@@ -3336,7 +3336,7 @@ ngram,freq,cumshare,en
 降,8544,0.831,drop
 严厉,8538,0.831,severe
 生涯,8534,0.831,career
-不必,8531,0.831,don&#39;t have to
+不必,8531,0.831,don't have to
 精心,8528,0.831,carefully
 受理,8526,0.831,accept
 步伐,8524,0.831,pace
@@ -3419,7 +3419,7 @@ ngram,freq,cumshare,en
 栏目,8303,0.834,column
 智力,8296,0.835,intelligence
 难题,8294,0.835,problem
-不知,8289,0.835,I don&#39;t know
+不知,8289,0.835,I don't know
 心里,8286,0.835,heart
 敏感,8275,0.835,sensitive
 课堂,8273,0.835,classroom
@@ -3437,7 +3437,7 @@ ngram,freq,cumshare,en
 异,8236,0.835,different
 中美,8228,0.835,China and America
 澳大利亚,8227,0.835,Australia
-解放军,8223,0.835,People&#39;s Liberation Army
+解放军,8223,0.835,People's Liberation Army
 逐,8223,0.835,one by one
 心理学,8223,0.835,psychology
 微观,8217,0.835,microscopic
@@ -3758,7 +3758,7 @@ ngram,freq,cumshare,en
 招生,7269,0.847,Admissions
 此后,7269,0.847,thereafter
 记载,7268,0.847,record
-干涉,7265,0.847,put one&#39;s oar in
+干涉,7265,0.847,put one's oar in
 同步,7265,0.847,Synchronize
 连锁,7257,0.847,chain
 安置,7254,0.847,placement
@@ -3988,7 +3988,7 @@ ngram,freq,cumshare,en
 还在,6731,0.854,still
 博,6727,0.854,Bo
 领先,6726,0.854,lead
-人大常委会,6723,0.855,Standing Committee of the National People&#39;s Congress
+人大常委会,6723,0.855,Standing Committee of the National People's Congress
 以致,6719,0.855,so that
 流转,6718,0.855,circulation
 一张,6717,0.855,one
@@ -4026,7 +4026,7 @@ ngram,freq,cumshare,en
 殖民地,6644,0.856,colony
 越大,6644,0.856,bigger
 不愿,6644,0.856,unwilling
-人民法院,6641,0.856,People&#39;s Court
+人民法院,6641,0.856,People's Court
 纲要,6638,0.856,Outline
 绿化,6637,0.856,greening
 严肃,6635,0.856,serious
@@ -4077,7 +4077,7 @@ ngram,freq,cumshare,en
 联营企业,6518,0.857,Associates
 进化,6517,0.857,evolution
 投标,6516,0.857,tender
-西安,6515,0.857,Xi&#39;an
+西安,6515,0.857,Xi'an
 院校,6515,0.857,colleges
 各方,6513,0.857,parties
 除非,6510,0.857,unless
@@ -4766,7 +4766,7 @@ ngram,freq,cumshare,en
 津,5261,0.876,Tianjin
 紧缩,5258,0.876,crunch
 红色,5253,0.876,red
-延安,5251,0.876,Yan&#39;an
+延安,5251,0.876,Yan'an
 每月,5250,0.876,per month
 贴近,5247,0.876,close
 倾销,5245,0.876,dumping
@@ -4944,7 +4944,7 @@ ngram,freq,cumshare,en
 会展,4993,0.881,Exhibition
 不大,4991,0.881,not big
 第八,4990,0.881,eighth
-人民出版社,4990,0.881,People&#39;s Publishing House
+人民出版社,4990,0.881,People's Publishing House
 自治州,4988,0.881,Autonomous Prefecture
 为何,4988,0.881,why
 达标,4988,0.881,up to standard
@@ -5412,7 +5412,7 @@ ngram,freq,cumshare,en
 奥地利,4419,0.891,Austria
 募集,4418,0.891,raise
 贬值,4417,0.891,depreciate
-人心,4417,0.891,people&#39;s hearts
+人心,4417,0.891,people's hearts
 快捷,4416,0.891,fast
 穿,4416,0.891,Put on
 分成,4413,0.891,divided into
@@ -5480,7 +5480,7 @@ ngram,freq,cumshare,en
 服务器,4339,0.892,server
 脱,4338,0.892,take off
 弱点,4338,0.892,weakness
-得不到,4337,0.892,can&#39;t get
+得不到,4337,0.892,can't get
 康德,4337,0.892,Kant
 希,4335,0.892,hope
 秀,4335,0.892,show
@@ -6026,7 +6026,7 @@ ngram,freq,cumshare,en
 妨碍,3744,0.903,hinder
 培训班,3742,0.903,training course
 督察,3741,0.903,Inspector
-天道,3740,0.903,Heaven&#39;s Way
+天道,3740,0.903,Heaven's Way
 影像,3739,0.903,image
 市区,3734,0.903,urban area
 不怕,3734,0.903,not afraid
@@ -6189,7 +6189,7 @@ ngram,freq,cumshare,en
 清单,3590,0.905,list
 耗,3588,0.906,consume
 正视,3587,0.906,face
-不懂,3586,0.906,don&#39;t know
+不懂,3586,0.906,don't know
 支行,3586,0.906,branch
 争端,3585,0.906,dispute
 远离,3585,0.906,keep away
@@ -6316,7 +6316,7 @@ ngram,freq,cumshare,en
 既不,3471,0.908,neither
 防护,3468,0.908,protection
 平安,3468,0.908,Safety
-人大代表,3466,0.908,Delegate to the National People&#39;s Congress
+人大代表,3466,0.908,Delegate to the National People's Congress
 投降,3466,0.908,surrender
 居然,3465,0.908,actually
 敌,3460,0.908,enemy
@@ -6746,7 +6746,7 @@ ngram,freq,cumshare,en
 结余,3145,0.914,balance
 乐趣,3145,0.914,pleasure
 携带,3143,0.914,carry
-中国人民银行,3143,0.914,People&#39;s Bank of China
+中国人民银行,3143,0.914,People's Bank of China
 核燃料,3142,0.914,nuclear fuel
 刘少奇,3140,0.914,Liu Shaoqi
 用心,3139,0.914,attentively
@@ -7218,7 +7218,7 @@ ngram,freq,cumshare,en
 特种,2837,0.921,special
 石头,2834,0.921,Stone
 中级,2833,0.921,intermediate
-全国人大,2833,0.921,National People&#39;s Congress
+全国人大,2833,0.921,National People's Congress
 大城市,2831,0.921,big city
 浙江省,2831,0.921,Zhejiang Province
 直觉,2831,0.921,intuition
@@ -7377,7 +7377,7 @@ ngram,freq,cumshare,en
 激光,2731,0.923,laser
 极力,2730,0.923,try hard
 迁,2729,0.923,move
-倒是,2729,0.923,It&#39;s true
+倒是,2729,0.923,It's true
 机密,2728,0.923,confidential
 单价,2728,0.923,unit price
 国籍,2727,0.923,Country of Citizenship
@@ -7474,7 +7474,7 @@ ngram,freq,cumshare,en
 归档,2678,0.924,archive
 第十二,2678,0.924,twelfth
 亡,2678,0.924,Death
-找不到,2677,0.924,can&#39;t find
+找不到,2677,0.924,can't find
 议程,2677,0.924,agenda
 民主党,2676,0.924,Democrats
 不明,2676,0.924,unknown
@@ -7513,7 +7513,7 @@ ngram,freq,cumshare,en
 如有,2662,0.925,if any
 又能,2662,0.925,can
 煤业,2662,0.925,coal industry
-妇联,2662,0.925,Women&#39;s Federation
+妇联,2662,0.925,Women's Federation
 接管,2661,0.925,take over
 容器,2660,0.925,container
 总公司,2660,0.925,head office
@@ -7546,7 +7546,7 @@ ngram,freq,cumshare,en
 苏维埃,2646,0.925,soviet
 绩,2646,0.925,achievement
 约为,2645,0.925,about
-人民日报,2644,0.925,People&#39;s Daily
+人民日报,2644,0.925,People's Daily
 反共,2644,0.925,anti-communist
 技术改造,2643,0.925,Technological transformation
 赔款,2643,0.925,indemnity
@@ -7732,7 +7732,7 @@ ngram,freq,cumshare,en
 链条,2541,0.927,chain
 预备,2541,0.927,preparation
 将对,2537,0.927,will
-这才,2537,0.927,That&#39;s it
+这才,2537,0.927,That's it
 沿线,2536,0.927,along the line
 成本核算,2536,0.927,cost accounting
 面子,2535,0.927,face
@@ -7933,8 +7933,8 @@ ngram,freq,cumshare,en
 聘用,2429,0.93,hire
 花园,2429,0.93,garden
 图表,2429,0.93,chart
-不去,2426,0.93,don&#39;t go
-两点,2425,0.93,two o&#39;clock
+不去,2426,0.93,don't go
+两点,2425,0.93,two o'clock
 拜访,2425,0.93,visit
 本篇,2424,0.93,This article
 土著,2424,0.93,indigenous
@@ -8084,7 +8084,7 @@ ngram,freq,cumshare,en
 有影响,2355,0.931,influential
 坦,2355,0.931,Tan
 主动性,2354,0.931,initiative
-它所,2354,0.932,it&#39;s
+它所,2354,0.932,it's
 乘坐,2353,0.932,ride
 橡胶制品业,2353,0.932,Rubber Products Industry
 捍卫,2352,0.932,defend
@@ -8328,7 +8328,7 @@ ngram,freq,cumshare,en
 正向,2239,0.934,positive
 解放区,2238,0.934,Liberated area
 射,2238,0.934,shoot
-不让,2238,0.934,don&#39;t let
+不让,2238,0.934,don't let
 独自,2238,0.934,alone
 萧条,2237,0.934,depression
 韦伯,2235,0.934,Weber
@@ -8341,7 +8341,7 @@ ngram,freq,cumshare,en
 工作站,2233,0.934,workstation
 毅力,2233,0.934,will
 显而易见,2231,0.934,obvious
-它对,2231,0.934,it&#39;s right
+它对,2231,0.934,it's right
 保税区,2231,0.934,Free Trade Zone
 标杆,2231,0.934,benchmark
 出卖,2230,0.934,sell
@@ -9119,7 +9119,7 @@ ngram,freq,cumshare,en
 六方,1938,0.942,Hexagon
 想像,1938,0.942,imagine
 率达,1937,0.942,rate up to
-不可以,1936,0.942,Can&#39;t
+不可以,1936,0.942,Can't
 这儿,1935,0.942,here
 借此,1935,0.942,take this
 工地,1935,0.942,construction site
@@ -9158,7 +9158,7 @@ ngram,freq,cumshare,en
 上诉,1923,0.942,appeal
 诚然,1922,0.942,True
 起初,1921,0.942,at first
-不了解,1921,0.942,don&#39;t understand
+不了解,1921,0.942,don't understand
 魂,1921,0.942,soul
 经受,1921,0.942,endure
 在前,1921,0.942,in front
@@ -9735,7 +9735,7 @@ ngram,freq,cumshare,en
 风能,1744,0.947,wind energy
 美妙,1744,0.947,wonderful
 图景,1744,0.947,picture
-不起,1743,0.947,can&#39;t afford
+不起,1743,0.947,can't afford
 科幻,1743,0.947,science fiction
 采掘,1743,0.947,mining
 动词,1743,0.947,verb
@@ -9824,7 +9824,7 @@ ngram,freq,cumshare,en
 迟,1716,0.948,Late
 不力,1716,0.948,weak
 撤,1716,0.948,withdraw
-麦当劳,1716,0.948,McDonald&#39;s
+麦当劳,1716,0.948,McDonald's
 吴邦国,1716,0.948,Wu Bangguo
 柜台,1716,0.948,counter
 装甲,1716,0.948,armor
@@ -9922,7 +9922,7 @@ ngram,freq,cumshare,en
 天津市,1695,0.949,Tianjin
 作文,1695,0.949,composition
 机床,1695,0.949,machine tool
-最高人民法院,1694,0.949,Supreme People&#39;s Court
+最高人民法院,1694,0.949,Supreme People's Court
 顺畅,1694,0.949,smooth
 苛刻,1694,0.949,harsh
 查办,1694,0.949,investigate

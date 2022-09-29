@@ -113,6 +113,11 @@ def ngramlist_add_translation(n, lang, outlang):
                                  source=langiso[lang])
     
     d[langiso[outlang]] = [i['translatedText'] for i in result]
+
+    # Fix: Google returns "'" as "&#39;" for some reason
+    d[langiso[outlang]] = d[langiso[outlang]].fillna(value="")
+    d[langiso[outlang]] = (d[langiso[outlang]]
+                           .str.replace("&#39;", "'", regex=False))
     
     if add_equal_indicator:
         d.loc[d['ngram'] == d[langiso[outlang]], 'equal'] = "1"
