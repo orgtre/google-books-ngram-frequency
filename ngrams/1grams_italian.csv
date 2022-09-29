@@ -1,12 +1,12 @@
 ngram,freq,cumshare,en
 di,473949910,0.038,from
-e,342329549,0.066,And
+e,342329549,0.066,and
 che,256174870,0.087,that
 la,255076732,0.107,there
 il,234702314,0.126,the
 a,200939424,0.142,to
 in,191147818,0.158,in
-non,155595771,0.17,Not
+non,155595771,0.17,not
 un,152633799,0.183,a
 per,140034600,0.194,for
 del,124289314,0.204,of the
@@ -48,17 +48,17 @@ questo,25151362,0.364,this
 quando,24258032,0.366,when
 ad,23126330,0.367,to
 dalla,21847208,0.369,from the
-loro,21817778,0.371,They
+loro,21817778,0.371,they
 ci,20836877,0.373,there
 solo,20510897,0.374,alone
-perché,20099117,0.376,Why
+perché,20099117,0.376,why
 lui,20022440,0.378,he
-così,19693393,0.379,Like this
+così,19693393,0.379,like this
 stato,19605645,0.381,state
 sul,19007847,0.382,on
 tra,18910360,0.384,between
 ai,18890543,0.385,to the
-prima,18733693,0.387,Before
+prima,18733693,0.387,before
 ed,18626421,0.388,and
 d',18531877,0.39,d '
 ho,17628591,0.391,I have
@@ -70,7 +70,7 @@ tutto,17218384,0.398,everything
 degli,17152006,0.4,of the
 all',16751508,0.401,to
 io,16715614,0.402,I
-cosa,16637470,0.404,What
+cosa,16637470,0.404,what
 parte,16510508,0.405,part
 sia,16271716,0.406,is
 alle,16215246,0.408,at
@@ -103,8 +103,8 @@ mai,12074604,0.437,never
 mio,12003790,0.438,my
 mia,11852243,0.439,my
 anni,11820176,0.44,years
-fare,11768559,0.441,Do
-molto,11677051,0.441,Very
+fare,11768559,0.441,do
+molto,11677051,0.441,very
 modo,11569438,0.442,way
 mentre,11538026,0.443,while
 quale,11097200,0.444,which
@@ -112,12 +112,12 @@ già,10671193,0.445,already
 altri,10663052,0.446,other
 proprio,10509002,0.447,own
 caso,10443829,0.448,case
-disse,10256207,0.448,She said
+disse,10256207,0.448,she said
 suoi,10154344,0.449,his
 volta,10124538,0.45,time
 un',10082885,0.451,a
 hanno,9982324,0.452,they have
-ora,9980093,0.453,Now
+ora,9980093,0.453,now
 casa,9747667,0.453,home
 stesso,9707521,0.454,same
 nelle,9390730,0.455,in
@@ -155,7 +155,7 @@ altra,7228309,0.476,other
 quindi,7220488,0.476,so
 dalle,7196088,0.477,give her
 deve,7144880,0.477,needs to
-via,7117391,0.478,Street
+via,7117391,0.478,street
 sotto,7067462,0.478,under
 noi,7047761,0.479,we
 tale,7032871,0.48,such
@@ -176,14 +176,14 @@ primo,6630571,0.487,first
 fine,6571744,0.488,end
 quasi,6554662,0.488,almost
 diritto,6505364,0.489,right
-quali,6462191,0.489,Which
+quali,6462191,0.489,which
 dello,6452408,0.49,of the
 quelle,6284826,0.49,those
 hai,6273575,0.491,you have
 meno,6244272,0.491,less
 tre,6212533,0.492,three
 cose,6162236,0.492,what's this
-però,6131922,0.493,However
+però,6131922,0.493,however
 te,6130205,0.493,you
 agli,6124884,0.494,ai
 questi,6067888,0.494,these
@@ -192,8 +192,8 @@ contro,6002418,0.495,versus
 stessa,5962653,0.496,itself
 fra,5857019,0.496,between
 li,5834904,0.497,there
-sì,5716066,0.497,Yes
-certo,5710559,0.498,Certain
+sì,5716066,0.497,yes
+certo,5710559,0.498,certain
 testa,5705753,0.498,head
 fuori,5705634,0.499,out
 attività,5703597,0.499,activities
@@ -211,7 +211,7 @@ viene,5354968,0.504,he comes
 senso,5329370,0.504,sense
 nell',5327626,0.505,in the'
 avevano,5326566,0.505,they had
-stati,5260434,0.506,States
+stati,5260434,0.506,states
 voce,5258196,0.506,voice
 donna,5206214,0.506,woman
 fece,5132599,0.507,he did
@@ -247,7 +247,7 @@ visto,4548309,0.518,view
 avevo,4540130,0.518,I had
 alcuni,4529827,0.519,some
 nulla,4512815,0.519,nothing
-terra,4506603,0.519,Earth
+terra,4506603,0.519,earth
 appena,4497384,0.52,as soon as
 uomini,4496595,0.52,men
 sarà,4468718,0.521,Sara
@@ -301,13 +301,13 @@ realtà,3735327,0.536,reality
 generale,3734248,0.536,general
 cuore,3733094,0.537,heart
 tipo,3724793,0.537,guy
-dice,3711644,0.537,He says
+dice,3711644,0.537,he says
 morte,3709569,0.538,death
 fronte,3704326,0.538,front
 nostra,3704297,0.538,our
 durante,3691831,0.538,during
 tua,3691632,0.539,your
-strada,3668279,0.539,Street
+strada,3668279,0.539,street
 voi,3648995,0.539,you
 tuttavia,3645282,0.54,however
 letto,3645262,0.54,read
@@ -354,10 +354,10 @@ cura,3238714,0.551,treatment
 causa,3227526,0.551,it causes
 molti,3212367,0.552,lot of
 siano,3210213,0.552,are
-rispose,3173811,0.552,He answered
+rispose,3173811,0.552,he answered
 doveva,3163051,0.552,where you go
 periodo,3150663,0.553,period
-sembrava,3142582,0.553,It seemed
+sembrava,3142582,0.553,it seemed
 fondo,3139848,0.553,bottom
 relazione,3134489,0.553,relation
 ormai,3132130,0.554,at this point
@@ -395,7 +395,7 @@ parola,2859010,0.561,word
 posso,2853932,0.561,I can
 donne,2843545,0.561,women
 presenza,2819500,0.562,presence
-opera,2814795,0.562,Opera
+opera,2814795,0.562,opera
 quattro,2807076,0.562,four
 spalle,2804783,0.562,shoulders
 voleva,2793305,0.563,she wanted
@@ -424,14 +424,14 @@ controllo,2637466,0.567,check
 state,2634278,0.568,been
 pur,2631269,0.568,even though
 comune,2622827,0.568,common
-sapeva,2619416,0.568,He knew
+sapeva,2619416,0.568,he knew
 faccia,2618198,0.569,face
 codice,2611991,0.569,code
 gruppo,2610423,0.569,group
 signore,2608795,0.569,man
 capelli,2596684,0.569,hair
 passato,2594496,0.57,past
-ricerca,2577813,0.57,Research
+ricerca,2577813,0.57,research
 re,2577572,0.57,king
 ovvero,2576527,0.57,that is to say
 condizioni,2561649,0.57,conditions
@@ -460,7 +460,7 @@ livello,2502992,0.575,level
 piccolo,2494787,0.575,small
 diverse,2494253,0.575,different
 nemmeno,2494246,0.575,neither
-vicino,2493602,0.576,Neighbor
+vicino,2493602,0.576,neighbor
 diritti,2492292,0.576,rights
 gente,2485999,0.576,people
 avanti,2476013,0.576,come on
@@ -469,7 +469,7 @@ credo,2461319,0.577,I believe
 centro,2457961,0.577,center
 prese,2457311,0.577,taken
 beni,2457280,0.577,goods
-sole,2456720,0.577,Sun
+sole,2456720,0.577,sun
 titolo,2452822,0.578,title
 prendere,2447761,0.578,to take
 materia,2446600,0.578,matter
@@ -485,11 +485,11 @@ disposizioni,2403075,0.58,provisions
 guardò,2390265,0.58,I watch
 moglie,2389338,0.58,wife
 accanto,2382185,0.58,next to
-inizio,2377636,0.581,Start
+inizio,2377636,0.581,start
 dicembre,2369016,0.581,December
 interesse,2364918,0.581,interest
 lettera,2356704,0.581,letter
-attenzione,2354899,0.581,Attention
+attenzione,2354899,0.581,attention
 alto,2353372,0.582,tall
 necessario,2352856,0.582,necessary
 essi,2338411,0.582,they
@@ -518,13 +518,13 @@ informazioni,2230272,0.586,information
 devono,2228975,0.586,must
 maggiore,2226214,0.586,greater
 cinque,2224343,0.587,five
-consiglio,2222103,0.587,Advice
+consiglio,2222103,0.587,advice
 sorriso,2220863,0.587,smile
 stessi,2220861,0.587,themselves
 mie,2219335,0.587,my
 facendo,2218768,0.587,doing
 soggetti,2218694,0.588,subjects
-presso,2216065,0.588,At
+presso,2216065,0.588,at
 responsabilità,2211495,0.588,responsibility
 uso,2202030,0.588,use
 bella,2198811,0.588,beautiful
@@ -605,7 +605,7 @@ fuoco,1923845,0.601,fire
 indietro,1923538,0.601,backwards
 lato,1918474,0.601,side
 progetto,1914846,0.601,project
-marzo,1913663,0.601,March
+marzo,1913663,0.601,march
 presidente,1912820,0.601,president
 sai,1907633,0.602,you know
 applicazione,1901515,0.602,application
@@ -626,17 +626,17 @@ molte,1871643,0.604,many
 mamma,1870456,0.604,mom
 governo,1866921,0.604,government
 trova,1865628,0.604,find
-oh,1864292,0.604,Oh
+oh,1864292,0.604,oh
 gennaio,1863825,0.605,January
 sede,1863401,0.605,site
 esperienza,1856749,0.605,experience
 quest',1855189,0.605,this
 avrebbero,1854923,0.605,would have
-nota,1854576,0.605,Note
+nota,1854576,0.605,note
 forme,1851401,0.605,forms
 volto,1848643,0.606,face
 fin,1846473,0.606,fin
-possiamo,1844125,0.606,We can
+possiamo,1844125,0.606,we can
 autorità,1842658,0.606,authority
 capitolo,1842010,0.606,chapter
 sentire,1838576,0.606,feel
@@ -645,7 +645,7 @@ poter,1831852,0.607,to be able
 farlo,1830048,0.607,to do it
 modalità,1829643,0.607,mode
 fatta,1826843,0.607,done
-maggio,1825229,0.607,May
+maggio,1825229,0.607,may
 avete,1820520,0.607,you have
 rapporti,1818168,0.608,relationships
 disposizione,1816281,0.608,layout
@@ -790,7 +790,7 @@ entrare,1480696,0.626,enter
 paio,1479610,0.626,pair
 differenza,1478957,0.626,difference
 linea,1478291,0.626,line
-studi,1477145,0.626,Education
+studi,1477145,0.626,education
 colpa,1475636,0.627,fault
 immagine,1475271,0.627,image
 capitale,1475262,0.627,capital
@@ -847,7 +847,7 @@ alta,1399222,0.633,high
 dallo,1398114,0.633,from
 contrario,1396904,0.633,contrary
 capito,1396511,0.633,understood
-ragazzi,1389818,0.633,Boys
+ragazzi,1389818,0.633,boys
 regole,1389421,0.633,rules
 qualunque,1388649,0.633,whatever
 cercare,1387709,0.633,to seek
@@ -882,7 +882,7 @@ paesi,1368762,0.636,villages
 nostre,1366522,0.637,our
 vostro,1357979,0.637,your
 musica,1353790,0.637,music
-aiuto,1349932,0.637,Help
+aiuto,1349932,0.637,help
 guarda,1349803,0.637,look
 economico,1349483,0.637,economic
 destra,1349009,0.637,right
@@ -978,7 +978,7 @@ origine,1221535,0.646,origin
 diventare,1217375,0.647,become
 fortuna,1216918,0.647,fortune
 settore,1216726,0.647,sector
-forze,1214209,0.647,Strength
+forze,1214209,0.647,strength
 mancanza,1212616,0.647,lack
 caratteristiche,1210321,0.647,features
 cominciò,1210222,0.647,began
@@ -1035,7 +1035,7 @@ teoria,1162322,0.652,theory
 esame,1160099,0.652,exam
 unità,1159672,0.652,unit
 ufficiale,1158258,0.652,official
-quadro,1157945,0.652,Square
+quadro,1157945,0.652,square
 quegli,1156313,0.652,those
 potrà,1155601,0.652,will be able to
 umano,1155086,0.653,human
@@ -1095,14 +1095,14 @@ stanno,1104976,0.657,are
 riusciva,1104896,0.657,he succeeded
 impossibile,1104239,0.658,impossible
 esiste,1103576,0.658,exists
-papà,1102915,0.658,Pope
+papà,1102915,0.658,pope
 relativi,1102180,0.658,concerning
 durata,1099326,0.658,duration
 intero,1099050,0.658,entire
 leggere,1096123,0.658,light
 giurisprudenza,1095558,0.658,law
 conoscere,1095502,0.658,know
-umana,1093435,0.658,Human
+umana,1093435,0.658,human
 definizione,1093286,0.658,definition
 diventa,1090377,0.659,becomes
 motivi,1088860,0.659,reasons
@@ -1220,7 +1220,7 @@ bianca,986534,0.668,white
 capace,986486,0.668,to be able
 com',984394,0.668,how
 tecnica,983526,0.668,technique
-certamente,983434,0.668,Certainly
+certamente,983434,0.668,certainly
 verde,982711,0.668,green
 angolo,982559,0.668,angle
 bilancio,981866,0.668,balance
@@ -1229,8 +1229,8 @@ assai,981699,0.669,very much
 eravamo,980430,0.669,we were
 messa,980053,0.669,mass
 grave,979754,0.669,serious
-muro,977990,0.669,Wall
-unione,977989,0.669,Union
+muro,977990,0.669,wall
+unione,977989,0.669,union
 fonte,977689,0.669,source
 gioia,976182,0.669,joy
 sebbene,975979,0.669,although
@@ -1384,7 +1384,7 @@ morti,867406,0.68,dead
 linguaggio,867366,0.68,language
 pezzo,867167,0.68,piece
 pavimento,867110,0.68,floor
-don,867030,0.681,Don
+don,867030,0.681,don
 scienza,866757,0.681,science
 uscita,865694,0.681,exit
 bellezza,864956,0.681,beauty
@@ -1480,7 +1480,7 @@ saputo,819797,0.687,known
 fatica,819645,0.687,fatigue
 chiuse,818363,0.687,closed
 fermo,817879,0.687,stopped
-est,817844,0.687,East
+est,817844,0.687,east
 minuto,817457,0.687,minute
 accertamento,817456,0.687,assessment
 personali,817441,0.687,personal
@@ -1568,7 +1568,7 @@ uscì,771931,0.692,went out
 arriva,771448,0.692,he arrives
 passa,771296,0.693,passes
 strinse,771263,0.693,squeezed
-prego,771104,0.693,You are welcome
+prego,771104,0.693,you are welcome
 informazione,770973,0.693,information
 avessero,770486,0.693,they had
 tesi,770435,0.693,thesis
@@ -1645,7 +1645,7 @@ regionale,736402,0.697,regional
 possibili,736321,0.697,possible
 critica,735387,0.697,criticism
 considerare,735317,0.697,to consider
-vai,735137,0.697,Go
+vai,735137,0.697,go
 fonti,735136,0.697,sources
 prestazioni,734574,0.697,performance
 voci,733342,0.698,voices
@@ -1654,10 +1654,10 @@ agente,732501,0.698,agent
 edificio,732335,0.698,building
 terzi,732025,0.698,third parties
 bicchiere,730943,0.698,glass
-note,730533,0.698,Note
+note,730533,0.698,note
 vestiti,728693,0.698,clothes
 quota,728646,0.698,quote
-interessante,728545,0.698,Interesting
+interessante,728545,0.698,interesting
 dispiace,728450,0.698,sorry
 teatro,728292,0.698,theater
 ulteriore,728138,0.698,further
@@ -1675,16 +1675,16 @@ rimasta,723791,0.699,remained
 provato,723681,0.699,tried
 lotta,723383,0.699,struggle
 commi,723370,0.699,paragraphs
-nera,723222,0.699,Black
+nera,723222,0.699,black
 purtroppo,722863,0.699,unfortunately
 venivano,722683,0.699,they came
 sino,722496,0.699,Yes No
 pagina,722392,0.699,page
-agire,722095,0.699,Act
+agire,722095,0.699,act
 aziende,721696,0.699,companies
 consenso,721128,0.7,consent
 applicano,720715,0.7,apply
-chiuso,720295,0.7,Closed
+chiuso,720295,0.7,closed
 parete,720275,0.7,wall
 applica,720238,0.7,apply
 intende,720082,0.7,intends
@@ -1773,7 +1773,7 @@ aumento,684857,0.704,increase
 sappiamo,684591,0.705,we know
 onore,683521,0.705,honor
 dell,683018,0.705,of
-sospensione,682046,0.705,Suspension
+sospensione,682046,0.705,suspension
 calma,681930,0.705,calm
 benissimo,681712,0.705,very good
 costruire,681665,0.705,to build
@@ -1782,7 +1782,7 @@ atteggiamento,680810,0.705,attitude
 rischi,679972,0.705,risks
 obblighi,679942,0.705,obligations
 personalità,679576,0.705,personality
-iniziò,679531,0.705,Start
+iniziò,679531,0.705,start
 ulteriori,679093,0.705,more
 correre,678926,0.705,run
 singoli,678909,0.705,singles
@@ -1855,13 +1855,13 @@ mondiale,657310,0.709,world
 forti,657079,0.709,strong
 tipi,656839,0.709,types
 tasca,656652,0.709,pocket
-cara,656596,0.709,Dear
+cara,656596,0.709,dear
 ferro,656205,0.709,iron
 ultime,655932,0.709,latest
 trasferimento,655894,0.709,transfer
 socio,655164,0.709,partner
 coi,655029,0.709,with
-conosceva,654891,0.709,He knew
+conosceva,654891,0.709,he knew
 s',654734,0.709,s'
 cosí,654650,0.71,as
 ciascuna,654382,0.71,each
@@ -1888,7 +1888,7 @@ tecnico,649283,0.711,technician
 equilibrio,649255,0.711,equilibrium
 carte,648796,0.711,cards
 grazia,648610,0.711,grace
-peccato,648298,0.711,Sin
+peccato,648298,0.711,sin
 copia,648288,0.711,copy
 sentivo,648220,0.711,felt
 verrà,647543,0.711,it will come
@@ -1921,7 +1921,7 @@ castello,639731,0.712,castle
 lunghi,639518,0.712,long
 finita,639024,0.712,over
 tensione,638869,0.713,voltage
-papa,638848,0.713,Pope
+papa,638848,0.713,pope
 vuol,638768,0.713,wants
 comando,638652,0.713,command
 medio,638566,0.713,medium
@@ -1940,7 +1940,7 @@ richiede,633801,0.713,requires
 gentile,633635,0.713,gentle
 distribuzione,633084,0.713,distribution
 chiedo,632861,0.713,I ask
-regina,632830,0.714,Queen
+regina,632830,0.714,queen
 disegno,632517,0.714,drawing
 potrei,632444,0.714,I could
 sembrano,631943,0.714,they seem
@@ -1974,7 +1974,7 @@ utilizzare,620898,0.715,use
 ricerche,620350,0.715,searches
 neve,620277,0.715,snow
 squadra,619854,0.715,squad
-vieni,619514,0.715,Come
+vieni,619514,0.715,come
 spettacolo,619507,0.715,show
 rossa,619486,0.715,red
 chiamare,619273,0.715,call
@@ -2018,7 +2018,7 @@ indicare,605190,0.717,indicate
 glielo,605091,0.717,him
 categorie,604268,0.717,categories
 singolo,604066,0.717,single
-signorina,603617,0.717,Miss
+signorina,603617,0.717,miss
 latte,603230,0.717,milk
 usato,603122,0.718,used
 ascoltare,601392,0.718,to listen
@@ -2042,7 +2042,7 @@ conte,595433,0.718,with you
 interessato,595424,0.718,interested
 commissario,595148,0.718,commissioner
 indicati,595145,0.719,indicated
-rivoluzione,594657,0.719,Revolution
+rivoluzione,594657,0.719,revolution
 aggiunto,593999,0.719,added
 convenzione,593990,0.719,convention
 succede,593876,0.719,happens
@@ -2109,9 +2109,9 @@ approccio,578517,0.722,approach
 familiari,578173,0.722,family members
 carica,577965,0.722,load
 finanziari,577916,0.722,financial
-internet,577758,0.722,Internet
+internet,577758,0.722,internet
 vostri,577512,0.722,your
-monte,577490,0.722,Mountain
+monte,577490,0.722,mountain
 dichiarato,577209,0.722,declared
 nascosto,577106,0.722,hidden
 direttiva,577056,0.722,directive
@@ -2286,10 +2286,10 @@ rappresentazione,531016,0.73,representation
 offre,530750,0.73,offers
 sessuale,530629,0.73,sexual
 determinata,529947,0.73,determined
-descrizione,529821,0.73,Description
+descrizione,529821,0.73,description
 definito,529442,0.73,defined
 consumo,529241,0.73,consumption
-valle,528732,0.73,Valley
+valle,528732,0.73,valley
 rilevanza,528618,0.73,relevance
 accade,528536,0.73,happens
 compagno,528495,0.73,company
@@ -2301,7 +2301,7 @@ citato,527492,0.73,quoted
 pubblicato,527419,0.73,published
 finestre,527214,0.73,windows
 economici,526998,0.73,cheap
-colazione,526953,0.73,Breakfast
+colazione,526953,0.73,breakfast
 inizia,526918,0.73,it begins
 produrre,526900,0.73,to produce
 ordinanza,526869,0.73,order
@@ -2321,7 +2321,7 @@ scritti,523214,0.731,writings
 disponibilità,522891,0.731,availability
 superiori,522423,0.731,superior
 foglio,522351,0.731,sheet
-associazione,522177,0.731,Association
+associazione,522177,0.731,association
 edifici,522067,0.731,buildings
 strategia,522008,0.731,strategy
 riflessione,521663,0.731,reflection
@@ -2460,7 +2460,7 @@ antichi,490164,0.737,ancient
 preda,489582,0.737,prey
 numerose,489424,0.737,several
 buone,489319,0.737,good
-ciao,489204,0.737,Hello
+ciao,489204,0.737,hello
 commerciali,489002,0.737,commercial
 sedette,488944,0.737,sat down
 composizione,488420,0.737,composition
@@ -2512,7 +2512,7 @@ rifiuto,479647,0.739,rejection
 storica,479628,0.739,historical
 lago,479588,0.739,the needle
 nemici,479581,0.739,enemies
-preparazione,479549,0.739,Preparation
+preparazione,479549,0.739,preparation
 suolo,479318,0.739,soil
 mancato,479201,0.739,missed
 raccontare,479189,0.739,tell
@@ -2566,7 +2566,7 @@ chiesi,469465,0.741,I asked
 lezione,469352,0.741,lesson
 universale,469278,0.741,universal
 democrazia,469035,0.741,democracy
-quartiere,468795,0.741,Neighborhood
+quartiere,468795,0.741,neighborhood
 argento,468752,0.741,silver
 gara,468271,0.741,competition
 porre,468186,0.741,to pose
@@ -2576,7 +2576,7 @@ temporale,467641,0.741,thunderstorm
 timore,467602,0.741,fear
 seguì,467341,0.741,follow
 raccontato,466614,0.741,told
-colleghi,466568,0.741,Colleagues
+colleghi,466568,0.741,colleagues
 dovette,466348,0.741,had to
 pubblicità,466286,0.741,advertising
 stranieri,466279,0.741,foreigners
@@ -2666,7 +2666,7 @@ spiegazione,448513,0.744,explanation
 formato,448506,0.745,format
 singole,448315,0.745,single
 scatto,448239,0.745,click
-malgrado,448130,0.745,Despite
+malgrado,448130,0.745,despite
 segreti,448109,0.745,secrets
 crede,447977,0.745,you think
 fenomeni,447965,0.745,phenomena
@@ -2817,7 +2817,7 @@ piatti,421490,0.75,dishes
 ossa,421385,0.75,bone
 torre,421082,0.75,tower
 dedicato,421081,0.75,dedicated
-arti,420776,0.75,Arts
+arti,420776,0.75,arts
 romani,420738,0.75,Romans
 tornata,420721,0.75,returned
 stabilisce,420671,0.75,establishes
@@ -2878,7 +2878,7 @@ patria,411787,0.752,homeland
 applicabile,411432,0.752,applicable
 purché,411336,0.752,so long as
 presupposto,411269,0.752,assumption
-invito,410792,0.752,Invitation
+invito,410792,0.752,invitation
 sospetto,410440,0.752,suspected
 architettura,409856,0.752,architecture
 ghiaccio,409819,0.752,ice
@@ -2889,7 +2889,7 @@ residenza,409311,0.752,residence
 opposto,409144,0.752,opposite to
 sabbia,408739,0.752,sand
 incontrare,408717,0.752,encounter
-benessere,408548,0.752,Welfare
+benessere,408548,0.752,welfare
 complessivo,407783,0.752,total
 navi,407553,0.752,ships
 trovo,407480,0.752,I find
@@ -3231,7 +3231,7 @@ attori,361145,0.763,actors
 posteriore,360931,0.763,rear
 veicoli,360903,0.763,vehicles
 moderno,360891,0.763,modern
-andarsene,360652,0.763,Leave
+andarsene,360652,0.763,leave
 liberazione,360575,0.763,liberation
 vergogna,360421,0.763,shame
 contribuente,360294,0.763,taxpayer
@@ -3266,7 +3266,7 @@ crescente,356928,0.764,growing
 gravità,356649,0.764,severity
 offerto,356350,0.764,offered
 taglio,356092,0.764,cut
-comunione,356008,0.764,Communion
+comunione,356008,0.764,communion
 interessa,355996,0.764,interest
 assicurazione,355713,0.764,insurance
 responsabili,355690,0.764,responsible
@@ -3363,7 +3363,7 @@ ricorrente,345352,0.767,recurring
 presentata,345285,0.767,presented
 significativo,345259,0.767,significant
 provava,345174,0.767,tried
-orientale,345138,0.767,Oriental
+orientale,345138,0.767,oriental
 intensità,345033,0.767,intensity
 intelligenza,345009,0.767,intelligence
 orgoglio,344982,0.767,pride
@@ -3419,7 +3419,7 @@ sviluppare,339391,0.768,develop
 intelligente,339240,0.768,intelligent
 anteriore,339181,0.768,front
 esatto,339164,0.768,exact
-giornalista,339088,0.768,Journalist
+giornalista,339088,0.768,journalist
 fresca,339046,0.768,fresh
 doccia,338893,0.768,shower
 procura,338793,0.768,power of attorney
@@ -3577,7 +3577,7 @@ management,324061,0.772,management
 avvenuta,324029,0.772,occurred
 denuncia,324004,0.772,complaint
 respirare,323934,0.772,to breathe
-leone,323661,0.772,Lion
+leone,323661,0.772,lion
 riflessioni,323492,0.772,reflections
 fondata,323470,0.772,founded
 vent',323448,0.772,vent '
@@ -3662,7 +3662,7 @@ vuota,315774,0.774,empty
 dimostra,315670,0.775,demonstrates
 connessione,315619,0.775,connection
 psicologia,315544,0.775,psychology
-lega,315192,0.775,League
+lega,315192,0.775,league
 selezione,315089,0.775,selection
 dev',315084,0.775,dev '
 pazzo,315082,0.775,crazy
@@ -3742,7 +3742,7 @@ vincere,307971,0.777,win
 semi,307952,0.777,seeds
 dargli,307764,0.777,give it
 espressioni,307606,0.777,expressions
-contemporanea,307509,0.777,Contemporary
+contemporanea,307509,0.777,contemporary
 divino,307211,0.777,divine
 fedele,307073,0.777,loyal
 fusione,306795,0.777,merger
@@ -3759,11 +3759,11 @@ stupore,306013,0.777,astonishment
 riconosciuta,305962,0.777,recognized
 teste,305849,0.777,heads
 coperte,305789,0.777,covers
-doveri,305739,0.777,Duties
+doveri,305739,0.777,duties
 difficili,305652,0.777,difficult
 contenuta,305519,0.777,contained
 destinata,305477,0.777,destined
-cattolica,305432,0.777,catholic
+cattolica,305432,0.777,Catholic
 rinunciare,305308,0.777,renounce
 territori,305047,0.777,territories
 dirigente,304993,0.777,manager
@@ -3993,7 +3993,7 @@ nebbia,285462,0.783,fog
 velo,285354,0.783,veil
 udì,285250,0.783,he heard
 ugualmente,285097,0.783,equally
-doppia,285016,0.783,Double
+doppia,285016,0.783,double
 ridendo,284610,0.783,laughing
 volentieri,284367,0.783,I'd love that
 rifugio,284358,0.783,refuge
@@ -4060,7 +4060,7 @@ condotte,279993,0.784,conducted
 rendono,279926,0.784,make
 tramonto,279777,0.784,sunset
 piacerebbe,279732,0.784,would like
-tirare,279664,0.784,Pull
+tirare,279664,0.784,pull
 efficienza,279609,0.784,efficiency
 chiamati,279491,0.784,called
 pista,279448,0.784,track
@@ -4070,7 +4070,7 @@ scoppiò,278947,0.784,burst out
 capita,278935,0.784,it happens
 arrivano,278733,0.784,they arrive
 legami,278707,0.784,ties
-taxi,278667,0.784,Taxi
+taxi,278667,0.784,taxi
 versamento,278555,0.784,payment
 lancia,278475,0.784,launches
 contadini,278237,0.784,farmers
@@ -4163,7 +4163,7 @@ soggettivo,270936,0.786,subjective
 conduce,270923,0.786,leads
 andai,270683,0.786,I went
 creature,270660,0.786,creatures
-ottima,270641,0.786,Great
+ottima,270641,0.786,great
 penna,270624,0.786,pen
 logico,270435,0.786,logical
 cella,270387,0.786,cell
@@ -4224,7 +4224,7 @@ eco,265966,0.788,echo
 legali,265956,0.788,legal
 acceso,265913,0.788,switched on
 destinatario,265671,0.788,recipient
-sedersi,265659,0.788,Sit
+sedersi,265659,0.788,sit
 guidare,265614,0.788,to drive
 dapprima,265598,0.788,at first
 tener,265473,0.788,take
@@ -4297,7 +4297,7 @@ laggiù,260389,0.789,over there
 accusa,260383,0.789,accusation
 stadio,260317,0.789,stage
 fedeli,260252,0.789,faithful
-greci,260194,0.789,greeks
+greci,260194,0.789,Greeks
 isole,260167,0.789,islands
 acquisti,260067,0.789,shopping
 ebbero,259995,0.789,they had
@@ -4425,10 +4425,10 @@ concernenti,250542,0.792,concerning
 corruzione,250437,0.792,corruption
 terreni,250416,0.792,land
 sorso,250364,0.792,sip
-invisibile,250348,0.792,Invisible
+invisibile,250348,0.792,invisible
 ebbi,250302,0.792,I had
 chiude,250256,0.792,closes
-comunista,250189,0.792,Communist
+comunista,250189,0.792,communist
 bestia,250146,0.792,beast
 nascosta,250029,0.792,hidden
 labbro,250007,0.792,lip
@@ -4461,7 +4461,7 @@ legittimo,248510,0.793,legitimate
 etica,248465,0.793,ethics
 troppi,248460,0.793,too many
 contraddittorio,248383,0.793,contradictory
-riservato,248196,0.793,Reserved
+riservato,248196,0.793,reserved
 disco,248143,0.793,disk
 magistrati,247873,0.793,magistrates
 potenti,247825,0.793,powerful
@@ -4535,7 +4535,7 @@ scioglimento,244394,0.794,dissolution
 negativi,244290,0.794,negative
 tela,244097,0.794,canvas
 serena,244091,0.794,serene
-rotto,244080,0.794,Broken
+rotto,244080,0.794,broken
 raggiunge,244011,0.794,reaches
 grano,243963,0.794,grain
 edilizia,243913,0.794,building
@@ -4617,11 +4617,11 @@ rappresentata,238277,0.796,represented
 deliberazione,238131,0.796,deliberation
 abbandono,238019,0.796,abandonment
 altronde,237993,0.796,on the other hand
-capisci,237974,0.796,Do you understand
+capisci,237974,0.796,do you understand
 raccontò,237962,0.796,tale
 capitato,237944,0.796,happened
 febbre,237901,0.796,fever
-laurea,237882,0.796,Graduation
+laurea,237882,0.796,graduation
 compagna,237869,0.796,mate
 spostò,237668,0.796,moved
 insegnante,237595,0.796,teacher
@@ -4681,7 +4681,7 @@ saggezza,234113,0.797,wisdom
 sottoposti,234099,0.797,subjected
 toccato,234017,0.797,touched
 copie,233988,0.797,copies
-reparto,233970,0.797,Department
+reparto,233970,0.797,department
 alzarsi,233861,0.797,get up
 parto,233855,0.797,childbirth
 ibidem,233816,0.797,ibidem
@@ -4735,7 +4735,7 @@ tentò,231131,0.798,he tried
 inerenti,231128,0.798,inherent
 disprezzo,231122,0.798,contempt
 ambiti,231089,0.798,areas
-inserire,231082,0.798,Insert
+inserire,231082,0.798,insert
 costume,231067,0.798,costume
 stanchezza,231048,0.798,tiredness
 costitutivo,231024,0.798,constitutive
@@ -4907,7 +4907,7 @@ riservati,221457,0.801,reserved
 poesie,221442,0.801,poems
 integrale,221378,0.801,whole wheat
 tenente,221307,0.801,lieutenant
-cari,221289,0.801,Dear
+cari,221289,0.801,dear
 patate,221226,0.801,potatoes
 privilegio,220937,0.801,privilege
 ritrovare,220921,0.801,find
@@ -4963,7 +4963,7 @@ imposto,218340,0.802,imposed
 condominio,218273,0.802,condominium
 troppa,218193,0.802,too much
 caratterizzata,218184,0.802,characterized
-salve,218124,0.802,Hello
+salve,218124,0.802,hello
 patrimoniali,218041,0.802,assets
 rottura,217981,0.802,break
 protetto,217900,0.802,protected
@@ -5093,7 +5093,7 @@ puramente,211316,0.804,purely
 catalogo,211284,0.804,catalog
 turisti,211280,0.804,tourists
 vestita,211259,0.804,dressed
-associati,211202,0.804,Associates
+associati,211202,0.804,associates
 assegnazione,211132,0.804,assignment
 armati,211097,0.804,armed
 seguiva,211061,0.804,followed
@@ -5272,7 +5272,7 @@ pecuniaria,202896,0.807,pecuniary
 andasse,202877,0.807,would go
 pollice,202866,0.807,thumb
 tavoli,202826,0.807,tables
-risolto,202768,0.807,Resolved
+risolto,202768,0.807,resolved
 incapacità,202736,0.807,inability
 dovrai,202704,0.807,you will have to
 rassegna,202688,0.807,review
@@ -5398,7 +5398,7 @@ vedete,196357,0.809,you see
 fisici,196327,0.809,physical
 trionfo,196315,0.809,triumph
 trattamenti,196309,0.809,treatments
-prigioniero,196304,0.809,Prisoner
+prigioniero,196304,0.809,prisoner
 discipline,196227,0.809,disciplines
 trasmettere,196135,0.809,transmit
 oscuro,196100,0.809,dark
@@ -5413,7 +5413,7 @@ gliela,195660,0.81,to him
 assicurato,195445,0.81,insured
 teorico,195393,0.81,theoretical
 pollo,195332,0.81,chicken
-bastardo,195326,0.81,Bastard
+bastardo,195326,0.81,bastard
 unici,195244,0.81,unique
 sella,195143,0.81,saddle
 presidenza,195137,0.81,presidency
@@ -5522,7 +5522,7 @@ illegittimità,190847,0.811,illegitimacy
 espansione,190824,0.811,expansion
 urbana,190785,0.811,urban
 vacanze,190779,0.811,vacation
-stamattina,190690,0.811,This morning
+stamattina,190690,0.811,this morning
 contraria,190682,0.811,contrary
 democratico,190647,0.811,democratic
 ritorna,190629,0.811,come back
@@ -5556,7 +5556,7 @@ borbottò,189056,0.812,he muttered
 definite,189048,0.812,defined
 magnifico,189045,0.812,magnificent
 colla,188962,0.812,glue
-conseguentemente,188928,0.812,Consequently
+conseguentemente,188928,0.812,consequently
 narrazione,188878,0.812,storytelling
 sottolineato,188801,0.812,underlined
 chiare,188782,0.812,clear
@@ -5785,7 +5785,7 @@ incubo,179318,0.815,nightmare
 dorso,179296,0.815,back
 compie,179268,0.815,accomplishes
 operativa,179259,0.815,operational
-autunno,179246,0.815,Autumn
+autunno,179246,0.815,autumn
 curare,179089,0.815,cure
 apposito,179081,0.815,appropriate
 premi,179034,0.815,awards
@@ -5920,10 +5920,10 @@ iniziarono,174081,0.817,they began
 liberale,174040,0.817,liberal
 verdure,173916,0.817,vegetables
 guerriero,173900,0.817,warrior
-china,173899,0.817,china
+china,173899,0.817,China
 visibili,173893,0.817,visible
 presentarsi,173885,0.817,to show up
-marrone,173878,0.817,Brown
+marrone,173878,0.817,brown
 inserite,173874,0.817,inserted
 indubbiamente,173832,0.817,undoubtedly
 dichiarata,173816,0.817,declared
@@ -6143,7 +6143,7 @@ insegnare,166806,0.82,teach
 produttori,166674,0.82,producers
 sanitari,166662,0.82,sanitary
 adeguatamente,166556,0.82,adequately
-cattedrale,166515,0.82,Cathedral
+cattedrale,166515,0.82,cathedral
 contengono,166495,0.82,contain
 peccati,166373,0.82,sins
 adolescenti,166312,0.82,teenagers
@@ -6188,7 +6188,7 @@ analogamente,165100,0.821,similarly
 sottostante,165052,0.821,below
 cieli,165016,0.821,skies
 riscontro,164992,0.821,feedback
-Occidente,164972,0.821,West
+Occidente,164972,0.821,west
 fortezza,164870,0.821,fortress
 ammessa,164818,0.821,accepted
 adempimenti,164753,0.821,fulfillments
@@ -6210,7 +6210,7 @@ cancellare,164198,0.821,to delete
 feroce,164194,0.821,fierce
 grigi,164118,0.821,gray
 stazioni,164087,0.821,stations
-terrazza,164053,0.821,Terrace
+terrazza,164053,0.821,terrace
 torniamo,164020,0.821,we return
 insopportabile,163980,0.821,unbearable
 cravatta,163934,0.821,necktie
@@ -6273,7 +6273,7 @@ collettività,162209,0.822,collectivity
 perduta,162208,0.822,lost
 strane,162185,0.822,strange
 attivita,162174,0.822,activity
-torace,162094,0.822,Chest
+torace,162094,0.822,chest
 dibattimento,162068,0.822,trial
 gemelli,162042,0.822,twins
 allegra,162032,0.822,cheerful
@@ -6422,7 +6422,7 @@ curve,157441,0.824,curves
 coinvolgere,157376,0.824,involve
 simpatico,157328,0.824,nice
 suppongo,157229,0.824,I presume
-champagne,157219,0.824,Champagne
+champagne,157219,0.824,champagne
 regolarità,157187,0.824,regularity
 richiamare,157186,0.824,call back
 maglia,157175,0.824,sweater
@@ -6447,7 +6447,7 @@ cosciente,156658,0.824,self conscious
 garante,156616,0.824,guarantor
 trovati,156615,0.824,found
 presentava,156594,0.824,presented
-creatore,156568,0.824,Creator
+creatore,156568,0.824,creator
 tardo,156543,0.824,late
 girava,156533,0.824,was spinning
 nominare,156507,0.824,nominate
@@ -6555,7 +6555,7 @@ allievi,153782,0.825,pupils
 ricercatori,153710,0.825,researchers
 settimo,153690,0.825,seventh
 significare,153689,0.825,mean
-invitò,153649,0.826,Invitation
+invitò,153649,0.826,invitation
 basse,153629,0.826,low
 riferiscono,153623,0.826,refer
 ricordate,153583,0.826,remember
@@ -6631,7 +6631,7 @@ immigrati,151794,0.826,immigrants
 aerei,151792,0.826,planes
 esitazione,151738,0.826,hesitation
 archivi,151731,0.826,archives
-sagoma,151687,0.826,Shape
+sagoma,151687,0.826,shape
 democratica,151686,0.826,democratic
 novella,151666,0.826,short story
 scorsa,151665,0.826,last
@@ -6832,7 +6832,7 @@ veleno,147335,0.829,poison
 rendita,147293,0.829,annuity
 detrazione,147284,0.829,deduction
 ventiquattro,147261,0.829,twenty four
-panchina,147243,0.829,Park bench
+panchina,147243,0.829,park bench
 famosi,147214,0.829,famous
 ampi,147196,0.829,wide
 mogli,147146,0.829,wives
@@ -6857,7 +6857,7 @@ stipendio,146635,0.829,salary
 altamente,146627,0.829,highly
 sufficienza,146622,0.829,enough
 attendeva,146611,0.829,waited
-Vangelo,146558,0.829,Gospel
+Vangelo,146558,0.829,gospel
 ricetta,146501,0.829,recipe
 casino,146500,0.829,casino
 dopoguerra,146468,0.829,after the war
@@ -7042,7 +7042,7 @@ intimità,142091,0.831,intimacy
 puntò,142089,0.831,point
 spirituali,142075,0.831,spiritual
 accadeva,142070,0.831,it happened
-pizza,141994,0.831,Pizza
+pizza,141994,0.831,pizza
 arrivi,141975,0.831,Arrivals
 abbondante,141973,0.831,abundant
 credenza,141960,0.831,dresser
@@ -7423,7 +7423,7 @@ vedermi,132557,0.835,see me
 prepara,132556,0.836,prepare
 sperato,132528,0.836,hoped
 granché,132525,0.836,much
-petrolio,132503,0.836,Petroleum
+petrolio,132503,0.836,petroleum
 semplificazione,132497,0.836,simplification
 affermando,132490,0.836,stating
 rapidità,132460,0.836,speed
@@ -7495,7 +7495,7 @@ adulta,130896,0.836,adult
 devozione,130837,0.836,devotion
 stupefacenti,130820,0.836,narcotics
 sentendosi,130820,0.836,feeling
-oceano,130810,0.836,Ocean
+oceano,130810,0.836,ocean
 concepito,130796,0.836,conceived
 nullo,130757,0.836,null and void
 vecchiaia,130750,0.836,old age
@@ -7606,7 +7606,7 @@ tuta,128583,0.837,suit
 effettua,128560,0.837,carries out
 abituati,128546,0.837,get used to it
 serva,128539,0.837,servant
-aiutò,128526,0.837,Help
+aiutò,128526,0.837,help
 buia,128512,0.837,dark
 rimedi,128500,0.837,remedies
 calde,128477,0.837,hot
@@ -7764,7 +7764,7 @@ sposi,125315,0.839,newlyweds
 provai,125234,0.839,I tried
 scientifici,125227,0.839,scientific
 matrimoniale,125210,0.839,matrimonial
-alimentazione,125208,0.839,Power supply
+alimentazione,125208,0.839,power supply
 riuscirono,125197,0.839,they succeeded
 attende,125190,0.839,awaits
 responsabilita,125180,0.839,responsibility
@@ -7776,7 +7776,7 @@ portarlo,125089,0.839,bring it up
 strage,125053,0.839,massacre
 crimini,125000,0.839,crimes
 muscolare,124967,0.839,muscular
-segnala,124960,0.839,Report
+segnala,124960,0.839,report
 scosso,124927,0.839,shaken
 avviato,124853,0.839,started
 spontaneo,124729,0.839,spontaneous
@@ -8072,7 +8072,7 @@ telematica,118429,0.842,telematics
 maledetta,118402,0.842,cursed
 osato,118400,0.842,dared
 romantico,118391,0.842,romantic
-baia,118379,0.842,Bay
+baia,118379,0.842,bay
 scorreva,118361,0.842,flowed
 lavare,118331,0.842,to wash
 guidata,118302,0.842,guided
@@ -8197,7 +8197,7 @@ botte,115856,0.843,barrel
 temporaneo,115834,0.843,temporary
 portatore,115833,0.843,bearer
 lenzuolo,115819,0.843,sheet
-supporre,115814,0.843,Suppose
+supporre,115814,0.843,suppose
 creano,115802,0.843,create
 scatole,115775,0.843,cans
 ricordano,115768,0.843,remember
@@ -8315,7 +8315,7 @@ offeso,113436,0.844,offended
 disegnare,113405,0.844,to draw
 cd,113393,0.844,CD
 illusioni,113381,0.844,illusions
-capanna,113378,0.844,Hut
+capanna,113378,0.844,hut
 superata,113361,0.844,exceeded
 inosservanza,113320,0.844,non-compliance
 uscivano,113281,0.844,they went out
@@ -8367,10 +8367,10 @@ eccitato,112265,0.845,excited
 coniugale,112250,0.845,marital
 vampiro,112238,0.845,vampire
 aderenti,112226,0.845,adherents
-quercia,112200,0.845,Oak tree
+quercia,112200,0.845,oak tree
 ricompensa,112175,0.845,reward
 bugie,112168,0.845,lies
-gialli,112144,0.845,Detective stories
+gialli,112144,0.845,detective stories
 schede,112138,0.845,cards
 odori,112124,0.845,smells
 chiudendo,112121,0.845,closing
@@ -8432,7 +8432,7 @@ archi,111304,0.845,arches
 manifestare,111267,0.845,manifest
 dotate,111228,0.845,equipped with
 emerse,111215,0.845,emerged
-corrispondono,111214,0.845,Correspond
+corrispondono,111214,0.845,correspond
 copriva,111188,0.845,covered
 soggettività,111174,0.845,subjectivity
 prezzemolo,111172,0.845,parsley
@@ -8488,7 +8488,7 @@ budget,110422,0.846,budget
 subisce,110401,0.846,suffers
 insufficienza,110368,0.846,insufficiency
 matrimoni,110357,0.846,weddings
-incantesimo,110355,0.846,Magic spell
+incantesimo,110355,0.846,magic spell
 vitalità,110262,0.846,vitality
 ragion,110242,0.846,reason
 informativa,110242,0.846,informative
@@ -8576,7 +8576,7 @@ strappò,109099,0.847,tore up
 sparito,109089,0.847,disappeared
 zuppa,109088,0.847,soup
 ridotte,109077,0.847,reduced
-zitto,109036,0.847,Shut up
+zitto,109036,0.847,shut up
 caldi,109029,0.847,hot
 sommità,109009,0.847,top
 intervenuto,108974,0.847,intervened
@@ -8833,7 +8833,7 @@ permise,104505,0.849,allowed
 bara,104485,0.849,coffin
 soddisfacente,104483,0.849,satisfying
 accorgersi,104469,0.849,notice
-consolidamento,104406,0.849,Consolidation
+consolidamento,104406,0.849,consolidation
 terminata,104394,0.849,finished
 esistevano,104349,0.849,existed
 morendo,104307,0.849,dying
@@ -9040,7 +9040,7 @@ indossato,101264,0.851,worn
 celebrare,101235,0.851,to celebrate
 costitutivi,101218,0.851,constitutive
 solite,101214,0.851,usual
-vomito,101193,0.851,He retched
+vomito,101193,0.851,he retched
 freschi,101192,0.851,fresh
 inserisce,101176,0.851,inserts
 integrazioni,101127,0.851,additions
@@ -9209,7 +9209,7 @@ orchestra,98547,0.852,orchestra
 ammortamento,98535,0.852,depreciation
 propensione,98513,0.852,propensity
 timori,98475,0.852,fears
-nazionalità,98472,0.852,Nationality
+nazionalità,98472,0.852,nationality
 freddezza,98469,0.852,coldness
 mettevano,98464,0.852,they put
 rispettato,98419,0.852,respected
@@ -9409,7 +9409,7 @@ annotazioni,95466,0.854,annotations
 obbligata,95419,0.854,obliged
 bolla,95416,0.854,bubble
 decorre,95413,0.854,runs
-arancione,95393,0.854,Orange
+arancione,95393,0.854,orange
 domandare,95380,0.854,ask
 connessioni,95352,0.854,connections
 successore,95341,0.854,successor
@@ -9503,7 +9503,7 @@ scaricare,93862,0.854,download
 ottimale,93858,0.854,optimal
 fabbricazione,93846,0.854,manufacture
 dettagliata,93834,0.854,detailed
-comunismo,93811,0.854,Communism
+comunismo,93811,0.854,communism
 basati,93794,0.854,based
 cominciavano,93787,0.854,they began
 pescatori,93783,0.854,fishermen
@@ -9522,7 +9522,7 @@ bancaria,93655,0.854,banking
 viaggiatore,93644,0.854,traveler
 manifestano,93633,0.854,manifest
 sapone,93585,0.854,soap
-civico,93583,0.854,Street number
+civico,93583,0.854,street number
 obbliga,93575,0.854,obliges
 indovinare,93565,0.854,guess
 annuncia,93561,0.854,announces
@@ -9623,7 +9623,7 @@ storto,92286,0.855,crooked
 brutale,92265,0.855,brutal
 coesione,92257,0.855,cohesion
 magazzini,92257,0.855,stores
-respira,92209,0.855,Breathe
+respira,92209,0.855,breathe
 dimentica,92200,0.855,forget
 riconoscendo,92177,0.855,acknowledging
 agitata,92171,0.855,agitated
@@ -9852,7 +9852,7 @@ disp,89416,0.857,avail
 sportivi,89411,0.857,sportsmen
 concessi,89406,0.857,granted
 amori,89363,0.857,loves
-avvento,89348,0.857,Advent
+avvento,89348,0.857,advent
 interrogativi,89347,0.857,questions
 politicamente,89325,0.857,politically
 pelliccia,89317,0.857,fur
@@ -9872,7 +9872,7 @@ spirale,89090,0.857,spiral
 epoche,89090,0.857,eras
 vederci,89071,0.857,see us
 artigiani,89045,0.857,craftsmen
-discreta,89041,0.857,Discrete
+discreta,89041,0.857,discrete
 taccuino,89018,0.857,notebook
 amicizie,89013,0.857,friendships
 ven,88994,0.857,Fri

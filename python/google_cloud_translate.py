@@ -94,6 +94,33 @@ def translate_long_list(inlist, target, source):
     return result
 
 
+def fix_case(arr, outlang):
+    """Fix the case of the strings in array 'arr' and return it.
+
+    The list of 1-grams in language 'outlang' is used to set the case.
+    """
+    reffile = ngramlist_path(1, outlang)
+    dr = pd.read_csv(reffile)
+    for i in range(len(arr)):
+        if arr[i] not in dr.ngram.values and len(arr[i]) > 0:
+            swapped = arr[i][0].swapcase() + arr[i][1:]
+            if swapped in dr.ngram.values:
+                arr[i] = swapped
+            else:
+                split = arr[i].split(" ")
+                lower = [s.lower() for s in split]
+                if len(split) > 1 and split[0] != lower[0]:
+                    if len(split) > 2:
+                        if split[1] == lower[1] and split[2] == lower[2]:
+                            if lower[0] in dr.ngram.values:
+                                arr[i] = ' '.join([lower[0]] + split[1:])
+                    else:
+                        if split[1] == lower[1]:
+                            if lower[0] in dr.ngram.values:
+                                arr[i] = ' '.join([lower[0]] + split[1:])
+    return arr
+
+
 def ngramlist_add_translation(n, lang, outlang):
 
     infile = ngramlist_path(n, lang)
@@ -113,11 +140,15 @@ def ngramlist_add_translation(n, lang, outlang):
                                  source=langiso[lang])
     
     d[langiso[outlang]] = [i['translatedText'] for i in result]
-
+    
     # Fix: Google returns "'" as "&#39;" for some reason
     d[langiso[outlang]] = d[langiso[outlang]].fillna(value="")
     d[langiso[outlang]] = (d[langiso[outlang]]
                            .str.replace("&#39;", "'", regex=False))
+    
+    # Fix: Google often returns the wrong case
+    d[langiso[outlang]] = fix_case(d[langiso[outlang]].values,
+                                   outlang)
     
     if add_equal_indicator:
         d.loc[d['ngram'] == d[langiso[outlang]], 'equal'] = "1"
