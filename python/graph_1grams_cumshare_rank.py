@@ -29,6 +29,4 @@ plot.get_xaxis().set_major_formatter(ScalarFormatter())
 plot.get_yaxis().set_major_formatter(PercentFormatter(xmax=1.0, symbol=''))
 plt.xlim(1, 10000)
 plt.ylim(0, 1)
-plt.savefig('graph_1grams_cumshare_rank.pdf')
-
-
+plt.savefig('graph_1grams_cumshare_rank.svg')

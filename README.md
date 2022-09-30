@@ -32,6 +32,15 @@ The lists found directly in the [ngrams](ngrams) directory have been cleaned and
 - entries excluded from the final cleaned lists (suffixed `2_removed`).
 
 
+## Using this when learning languages
+
+To provide some motivation for why leaning the most frequent words first may be a good idea when learning a language, the following graph is provided.
+
+<img src="graph_1grams_cumshare_rank.svg" width="100%"/>
+
+For each language, it plots the frequency rank of each 1-gram (i.e. word) on the x-axis and the `cumshare` on the y-axis. So, for example, after learning the 1000 most frequent French words, one can understand more than 70% of all words, counted with duplicates, occuring in a typical book published between 2010 and 2019 in version 20200217 of the French Google Books Ngram corpus.
+
+
 ## Python code
 
 The code producing everything is in the [python](python) directory. Each .py-file has a settings section at the top and additional cleaning settings can be specified using the files in [python/extra_settings](python/extra_settings).
@@ -47,7 +56,7 @@ Run [gather_and_clean.py](python/gather_and_clean.py) to gather all the n-grams 
 
 Run [google_cloud_translate.py](python/google_cloud_translate.py) to add English translations to all non-English 1-grams using the Google Cloud Translate API (this requires an API key, see the file header). By default only 1-grams are translated and only to English, but by changing the settings any n-gram can be translated to any language supported by Google. Google randomly capitalizes translations so an attempt is made to correct for this. Moreover, a limited number of manual corrections are applied using [manual_translations_1grams.csv](python/extra_settings/manual_translations_1grams.csv).
 
-Finally, [graph_1grams_cumshare_rank.py](python/graph_1grams_cumshare_rank.py) produces [graph_1grams_cumshare_rank.pdf](graph_1grams_cumshare_rank.pdf). 
+Finally, [graph_1grams_cumshare_rank.py](python/graph_1grams_cumshare_rank.py) produces [graph_1grams_cumshare_rank.svg](graph_1grams_cumshare_rank.svg). 
 
 
 ### Cleaning steps performed
@@ -80,13 +89,6 @@ Moreover, the following cleaning steps have been performed manually, using the E
 18. n-grams in the manually created lists of extra n-grams to exclude have been removed. These lists are in [python/extra_settings](python/extra_settings) and named `extra_{n}grams_to_exclude.csv`.
 
 When manually deciding which words to exlude the following rules were applied. _Exclude_: person names (some exceptions: Jesus, God), city names (some exceptions: if differ a lot from English and are common enough), company names, abbreviations (some exceptions, e.g. ma, pa), word parts, words in the wrong language (except if in common use). _Do not exlude_: country names, names for ethnic/national groups of people, geographical names (e.g. rivers, oceans), colloquial terms, interjections.
-
-
-## Using this when learning languages
-
-To provide some motivation for why leaning the most frequent words first may be a good idea when learning a language, the following graph is provided.
-
-![graph_1grams_cumshare_rank.pdf](graph_1grams_cumshare_rank.pdf)
 
 
 ## Limitations and known problems
