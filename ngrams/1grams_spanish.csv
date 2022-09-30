@@ -2,12 +2,12 @@ ngram,freq,cumshare,en
 de,881291847,0.062,of
 la,560211936,0.101,the
 que,457875853,0.133,that
-y,418590078,0.162,Y
+y,418590078,0.162,and
 el,373056329,0.188,the
 en,371495877,0.214,in
 a,322394311,0.237,a
 los,220257242,0.252,the
-se,196888672,0.266,I know
+se,196888672,0.266,"oneself, self"
 no,165750105,0.277,no
 un,157186684,0.288,a
 las,149924664,0.299,the
@@ -180,7 +180,7 @@ casi,6229688,0.535,almost
 días,6190220,0.536,days
 están,6178931,0.536,is it so
 embargo,6142913,0.536,embargo
-verdad,6133823,0.537,TRUE
+verdad,6133823,0.537,truth
 cual,6104309,0.537,which
 cuerpo,6096490,0.538,body
 tipo,6038615,0.538,type
@@ -205,7 +205,7 @@ según,5497740,0.545,according to
 bajo,5474987,0.546,bass
 aún,5399814,0.546,even
 hombres,5388663,0.546,mens
-sé,5351646,0.547,HE
+sé,5351646,0.547,know
 ejemplo,5325483,0.547,example
 manos,5320802,0.548,hands
 voz,5274301,0.548,voice
@@ -330,7 +330,7 @@ igual,3643583,0.584,same
 vista,3591612,0.584,view
 obra,3590143,0.584,construction site
 España,3575921,0.584,Spain
-puedo,3569189,0.585,Can I
+puedo,3569189,0.585,can I
 buena,3558688,0.585,good
 pueblo,3546695,0.585,village
 valor,3546567,0.585,worth
@@ -354,7 +354,7 @@ esas,3308315,0.589,those
 ellas,3300855,0.59,they
 ningún,3294160,0.59,none
 último,3293738,0.59,latest
-puesto,3255447,0.59,Market Stall
+puesto,3255447,0.59,"place, stall"
 joven,3251410,0.59,young man
 diferentes,3247354,0.591,different
 volvió,3226069,0.591,went back
@@ -440,7 +440,7 @@ varios,2714001,0.607,several
 mesa,2699963,0.607,table
 público,2688778,0.608,public
 base,2686267,0.608,base
-tenido,2685559,0.608,Dyed
+tenido,2685559,0.608,had
 sociales,2682176,0.608,social
 estudio,2681518,0.608,study
 servicios,2668723,0.609,services

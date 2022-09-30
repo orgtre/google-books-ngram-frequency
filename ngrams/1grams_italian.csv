@@ -13,7 +13,7 @@ del,124289314,0.204,of the
 è,117653666,0.214,is
 si,115903027,0.223,yes
 le,112319741,0.232,the
-l',108148632,0.241,L'
+l',108148632,0.241,the
 una,105763501,0.249,a
 della,96500838,0.257,of the
 con,96218143,0.265,with
@@ -41,7 +41,7 @@ aveva,30139810,0.348,had
 nella,28987810,0.351,in
 sua,27629046,0.353,her
 essere,27571444,0.355,to be
-dell',26856093,0.357,of
+dell',26856093,0.357,of the
 dal,26508646,0.36,from the
 suo,25938607,0.362,his
 questo,25151362,0.364,this
@@ -60,7 +60,7 @@ tra,18910360,0.384,between
 ai,18890543,0.385,to the
 prima,18733693,0.387,before
 ed,18626421,0.388,and
-d',18531877,0.39,d '
+d',18531877,0.39,from
 ho,17628591,0.391,I have
 poi,17583281,0.393,then
 su,17400425,0.394,on
@@ -68,7 +68,7 @@ lei,17372002,0.395,she
 due,17364285,0.397,two
 tutto,17218384,0.398,everything
 degli,17152006,0.4,of the
-all',16751508,0.401,to
+all',16751508,0.401,to the
 io,16715614,0.402,I
 cosa,16637470,0.404,what
 parte,16510508,0.405,part
@@ -209,7 +209,7 @@ avere,5410800,0.503,to have
 articolo,5379656,0.503,item
 viene,5354968,0.504,he comes
 senso,5329370,0.504,sense
-nell',5327626,0.505,in the'
+nell',5327626,0.505,in the
 avevano,5326566,0.505,they had
 stati,5260434,0.506,states
 voce,5258196,0.506,voice
@@ -614,7 +614,7 @@ ambito,1893487,0.602,scope
 probabilmente,1893103,0.602,probably
 serie,1891148,0.602,series
 unica,1887598,0.602,only
-bis,1885993,0.603,BIS
+bis,1885993,0.603,"encore, additional"
 età,1885150,0.603,age
 giugno,1884393,0.603,June
 motivo,1884159,0.603,reason

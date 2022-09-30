@@ -289,7 +289,7 @@ ngram,freq,cumshare,en
 有关,113047,0.436,related
 行政,112682,0.437,administrative
 机制,112676,0.437,mechanism
-大学,112652,0.438,the University
+大学,112652,0.438,the university
 需求,111606,0.439,need
 资金,111081,0.439,funds
 部分,110910,0.44,part
@@ -356,7 +356,7 @@ ngram,freq,cumshare,en
 规划,95702,0.469,planning
 万元,95579,0.47,million
 劳动,95566,0.47,labor
-次,95193,0.471,Second-rate
+次,95193,0.471,second-rate
 那,94627,0.471,that
 任何,94611,0.471,any
 竞争,94590,0.472,compete
@@ -585,7 +585,7 @@ ngram,freq,cumshare,en
 保持,61177,0.552,keep
 位,61113,0.552,bit
 体制,60880,0.552,system
-稳定,60875,0.553,Stablize
+稳定,60875,0.553,stabilize
 章,60861,0.553,chapter
 大陆,60853,0.553,mainland
 分配,60846,0.553,distribute
@@ -639,7 +639,7 @@ ngram,freq,cumshare,en
 健康,56475,0.567,healthy
 城镇,56389,0.567,town
 总额,56148,0.567,lump sum
-例如,56050,0.567,E.g
+例如,56050,0.567,for example
 医疗,56005,0.568,medical
 现象,55978,0.568,phenomenon
 落实,55923,0.568,implement
@@ -687,7 +687,7 @@ ngram,freq,cumshare,en
 职工,53033,0.579,staff
 概念,52960,0.579,concept
 体现,52939,0.579,reflect
-动,52815,0.58,verb: move
+动,52815,0.58,move
 特点,52783,0.58,features
 机会,52774,0.58,chance
 出来,52772,0.58,come out
@@ -954,8 +954,8 @@ ngram,freq,cumshare,en
 来源,37446,0.635,source
 院,37357,0.635,hospital
 和谐,37337,0.635,harmonious
-全市,37303,0.636,Citywide
-大学生,37301,0.636,College Students
+全市,37303,0.636,citywide
+大学生,37301,0.636,college students
 公民,37295,0.636,citizen
 谈判,37265,0.636,negotiation
 编制,37259,0.636,prepared by
@@ -1405,7 +1405,7 @@ ngram,freq,cumshare,en
 生物,25231,0.7,biology
 前提,25198,0.7,premise
 西,25183,0.7,west
-联,25171,0.701,United
+联,25171,0.701,united
 平,25124,0.701,flat
 有着,25119,0.701,have
 人均,25082,0.701,per capita
@@ -1558,7 +1558,7 @@ ngram,freq,cumshare,en
 大型,22305,0.717,large
 准则,22282,0.717,guidelines
 考察,22269,0.717,visit
-修改,22255,0.718,Revise
+修改,22255,0.718,revise
 法院,22241,0.718,court
 余,22204,0.718,remain
 手,22196,0.718,hand
@@ -1598,7 +1598,7 @@ ngram,freq,cumshare,en
 各级,21632,0.721,all levels
 待遇,21508,0.722,treatment
 案,21484,0.722,case
-事故,21460,0.722,ACCIDENT
+事故,21460,0.722,accident
 打,21449,0.722,beat
 高等,21438,0.722,higher
 可是,21373,0.722,but
@@ -1703,7 +1703,7 @@ ngram,freq,cumshare,en
 人士,19771,0.732,person
 组合,19769,0.732,combination
 民生,19766,0.732,people's livelihood
-收费,19759,0.732,TOLL
+收费,19759,0.732,toll
 其次,19758,0.732,second
 购,19744,0.732,purchase
 中华人民共和国,19729,0.732,People's Republic of China
@@ -1829,7 +1829,7 @@ ngram,freq,cumshare,en
 术,18255,0.743,technique
 援助,18249,0.743,assistance
 考试,18248,0.743,take an exam
-补充,18234,0.743,Replenish
+补充,18234,0.743,replenish
 音乐,18229,0.743,music
 文物,18227,0.743,cultural relics
 快乐,18191,0.743,hapiness

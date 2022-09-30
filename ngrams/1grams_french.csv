@@ -4,7 +4,7 @@ la,823756863,0.077,the
 et,651571349,0.1,and
 le,614855518,0.121,the
 à,577644624,0.142,at
-l',527188618,0.16,I'
+l',527188618,0.16,the
 les,503689143,0.178,them
 en,390657918,0.191,in
 des,384774428,0.205,of the
@@ -31,13 +31,13 @@ a,154508619,0.37,has
 sur,149435865,0.375,on
 plus,136841941,0.38,more
 son,134503327,0.385,his
-n',130389016,0.389,not'
+n',130389016,0.389,not
 s',119112948,0.394,if
 mais,109277203,0.397,but
 avec,106402072,0.401,with
 vous,103219801,0.405,you
 on,100332709,0.408,we
-c',96742500,0.412,vs'
+c',96742500,0.412,this
 était,96121051,0.415,was
 lui,96018718,0.418,him
 nous,94493501,0.422,we
@@ -66,7 +66,7 @@ sans,48567420,0.474,without
 ai,46997364,0.476,have
 deux,46505779,0.478,of them
 peut,44091245,0.479,may
-faire,43534550,0.481,TO DO
+faire,43534550,0.481,to do
 où,42654791,0.482,where
 aussi,42295369,0.484,too
 mon,41417447,0.485,my
@@ -157,7 +157,7 @@ place,14055546,0.55,square
 état,13991705,0.551,state
 pays,13881088,0.551,country
 quelque,13772597,0.552,some
-comment,13688690,0.552,How? 'Or' What
+comment,13688690,0.552,"how, what"
 travail,13651524,0.553,work
 personne,13622275,0.553,nobody
 nos,13304622,0.554,our
@@ -1050,7 +1050,7 @@ rend,2342599,0.708,makes
 blanche,2341602,0.708,white
 complètement,2340651,0.708,completely
 solution,2339889,0.708,solution
-concernant,2339512,0.708,re
+concernant,2339512,0.708,concerning
 biens,2336311,0.708,goods
 notion,2336061,0.708,notion
 viens,2335962,0.708,come
@@ -1319,7 +1319,7 @@ côtés,1879874,0.727,sides
 dossier,1878751,0.727,case
 oreille,1878274,0.727,ear
 savais,1877542,0.728,knew
-telles,1876431,0.728,
+telles,1876431,0.728,such
 atteindre,1876323,0.728,reach
 économiques,1871342,0.728,economic
 hier,1867526,0.728,yesterday
@@ -2140,7 +2140,7 @@ allaient,1155981,0.769,were going
 mine,1155580,0.77,mine
 pure,1155450,0.77,pure
 retenir,1154165,0.77,to hold onto
-sites,1153978,0.77,site (s
+sites,1153978,0.77,sites
 poursuivre,1153958,0.77,to chase
 cacher,1153473,0.77,to hide
 normes,1153001,0.77,standards

@@ -38,9 +38,15 @@ add_equal_indicator = False
 # whether to add an indicator when the translation equals the input
 # (Google translate returns the input when no translation is found)
 
-test_run = True
+test_run = False
 # whether to just run on the first three ngrams and save output separately
 # otherwise the full infile is translated and a column with results is added
+
+do_cloud_translation = False
+# whether to actually do the Google Cloud translation
+# otherwise it just updates the translations using
+# "python/extra_settings/manual_translations_1grams.csv",
+# applies some other fixes, and optionally add_equal_indicator
 
 
 ###############################################################################
@@ -121,6 +127,21 @@ def fix_case(arr, outlang):
     return arr
 
 
+def fix_translation(d, lang, outlang):
+    """Fix the translations from a manually supplied csv-file."""
+    df = pd.read_csv("python/extra_settings/manual_translations_1grams.csv")
+    
+    d.set_index('ngram', inplace=True)
+    
+    for i in df.index[df[langiso[lang]].notnull()]:
+        key = df[langiso[lang]][i]
+        d.loc[key, langiso[outlang]] = (df[langiso[lang] + '_'
+                                        + langiso[outlang]][i])
+    
+    d.reset_index(inplace=True)
+    return d
+
+
 def ngramlist_add_translation(n, lang, outlang):
 
     infile = ngramlist_path(n, lang)
@@ -132,14 +153,13 @@ def ngramlist_add_translation(n, lang, outlang):
         d = d[0:3]
     else:
         outfile = infile
-        
-    inlist = d['ngram'].to_list()
 
-    result = translate_long_list(inlist,
-                                 target=langiso[outlang],
-                                 source=langiso[lang])
-    
-    d[langiso[outlang]] = [i['translatedText'] for i in result]
+    if do_cloud_translation:
+        inlist = d['ngram'].to_list()        
+        result = translate_long_list(inlist,
+                                     target=langiso[outlang],
+                                     source=langiso[lang])    
+        d[langiso[outlang]] = [i['translatedText'] for i in result]
     
     # Fix: Google returns "'" as "&#39;" for some reason
     d[langiso[outlang]] = d[langiso[outlang]].fillna(value="")
@@ -149,6 +169,9 @@ def ngramlist_add_translation(n, lang, outlang):
     # Fix: Google often returns the wrong case
     d[langiso[outlang]] = fix_case(d[langiso[outlang]].values,
                                    outlang)
+
+    # Fix: Manually fix some translations
+    d = fix_translation(d, lang, outlang)
     
     if add_equal_indicator:
         d.loc[d['ngram'] == d[langiso[outlang]], 'equal'] = "1"
