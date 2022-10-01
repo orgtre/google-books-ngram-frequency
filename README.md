@@ -36,7 +36,11 @@ The lists found directly in the [ngrams](ngrams) directory have been cleaned and
 
 To provide some motivation for why leaning the most frequent words first may be a good idea when learning a language, the following graph is provided.
 
-<img src="graph_1grams_cumshare_rank.svg" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="graph_1grams_cumshare_rank_dark.svg" width="100%">
+  <source media="(prefers-color-scheme: light)" srcset="graph_1grams_cumshare_rank_light.svg" width="100%">
+  <img alt="graph_1grams_cumshare_rank_*.svg" src="graph_1grams_cumshare_rank_light.svg" width="100%">
+</picture>
 
 For each language, it plots the frequency rank of each 1-gram (i.e. word) on the x-axis and the `cumshare` on the y-axis. So, for example, after learning the 1000 most frequent French words, one can understand more than 70% of all words, counted with duplicates, occuring in a typical book published between 2010 and 2019 in version 20200217 of the French Google Books Ngram corpus.
 
@@ -56,7 +60,7 @@ Run [gather_and_clean.py](python/gather_and_clean.py) to gather all the n-grams 
 
 Run [google_cloud_translate.py](python/google_cloud_translate.py) to add English translations to all non-English 1-grams using the Google Cloud Translate API (this requires an API key, see the file header). By default only 1-grams are translated and only to English, but by changing the settings any n-gram can be translated to any language supported by Google. Google randomly capitalizes translations so an attempt is made to correct for this. Moreover, a limited number of manual corrections are applied using [manual_translations_1grams.csv](python/extra_settings/manual_translations_1grams.csv).
 
-Finally, [graph_1grams_cumshare_rank.py](python/graph_1grams_cumshare_rank.py) produces [graph_1grams_cumshare_rank.svg](graph_1grams_cumshare_rank.svg). 
+Finally, [graph_1grams_cumshare_rank.py](python/graph_1grams_cumshare_rank.py) produces [graph_1grams_cumshare_rank_light.svg](graph_1grams_cumshare_rank_light.svg) and its dark version.
 
 
 ### Cleaning steps performed
