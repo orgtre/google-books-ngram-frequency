@@ -20,8 +20,8 @@ year_end = 2019
 # List of languages for which frequency lists should be extracted
 langs = ["chinese_simplified", "english", "english-fiction", "french",
          "german", "hebrew", "italian", "russian", "spanish"]
-## each element has to be one of "english", "english-us", "english-gb", 
-## "english-fiction", "chinese_simplified", "french", "german", 
+## each element has to be one of "chinese_simplified", "english",
+## "english-us", "english-gb", "english-fiction", "french", "german",
 ## "hebrew", "italian", "russian", or "spanish"
 
 # Final number of most frequent ngrams to keep for each n
@@ -376,9 +376,8 @@ def remove_entries(d, entries):
     return d
 
 
-def get_total_number_of_1grams(lang):
-    global freq_words_added
-    global freq_words_removed    
+def get_total_number_of_1grams(lang, year_start=None, year_end=None,
+                               freq_words_added=0, freq_words_removed=0):
     f = open(totalcounts_1_file(lang))
     line = f.readline()
     tot = line.strip().split("\t")
@@ -388,6 +387,10 @@ def get_total_number_of_1grams(lang):
     del tot[3]
     tot.columns = ["year", "total_number"]
     tot = tot.astype(int)
+    if year_start is None:
+        year_start = tot["year"].iloc[0]
+    if year_end is None:
+        year_end = tot["year"].iloc[-1]
     total_in_period = sum(tot.total_number[tot.year.isin(range(year_start,
                                                                year_end+1))])
     total_in_period = total_in_period + freq_words_added - freq_words_removed
@@ -519,7 +522,10 @@ def gather_and_clean(lang, n):
     # add cumshare
     d = d.sort_values(by=['freq'], ascending=False).reset_index(drop=True)
     if n == 1:
-        d['share'] = d['freq'] / get_total_number_of_1grams(lang)
+        d['share'] = (d['freq'] /
+                      get_total_number_of_1grams(lang, year_start, year_end,
+                                                 freq_words_added,
+                                                 freq_words_removed))
         d['cumshare'] = d['share'].cumsum()
         del d['share']
         d = d[['ngram', 'freq', 'cumshare']]
