@@ -16,8 +16,8 @@ from functools import partial
 ns = [1, 2, 3, 4, 5]
 
 # List of languages for which frequency lists should be extracted
-langs = ["chinese_simplified", "english", "english-fiction", "french", "german", 
-         "hebrew", "italian", "russian", "spanish"]
+langs = ["chinese_simplified", "english", "english-fiction", "french", 
+         "german", "hebrew", "italian", "russian", "spanish"]
 # each element has to be one of "english", "english-us", "english-gb", 
 # "english-fiction", "chinese_simplified", "french", "german", 
 # "hebrew", "italian", "russian", or "spanish"
@@ -36,7 +36,7 @@ year_end = 2019
 # the code will run faster the larger these numbers
 min_freq_to_keep = {1: 1000, 2: 1000, 3: 1000, 4: 1000, 5: 1000}
 
-# Make sure we are in right directory when running code (other paths are relative)
+# Make sure we are in right directory (other paths are relative)
 # os.chdir("my-path-to/google-books-ngram-frequency")
 
 # Number of cores to run on in parallel
@@ -62,9 +62,12 @@ use_custom_url_indices = True
 custom_url_indices = {"spanish":
                       {1: [*range(0, 3)],
                        2: [*range(6, 23)] + [*range(25, 73)],
-                       3: [*range(45, 131)] + [*range(222, 231)] + [*range(239, 688)],
-                       4: [*range(33, 81)] + [*range(230, 245)] + [*range(262, 571)],
-                       5: [*range(78, 163)] + [*range(668, 701)] + [*range(771, 1415)]},
+                       3: ([*range(45, 131)] + [*range(222, 231)]
+                           + [*range(239, 688)]),
+                       4: ([*range(33, 81)] + [*range(230, 245)]
+                           + [*range(262, 571)]),
+                       5: ([*range(78, 163)] + [*range(668, 701)]
+                           + [*range(771, 1415)])},
                       "chinese_simplified":
                       {1: [*range(0, 1)],
                        2: [*range(0, 6)],
@@ -80,23 +83,30 @@ custom_url_indices = {"spanish":
                       "french":
                       {1: [*range(0, 6)],
                        2: [*range(9, 36)] + [*range(41, 115)],
-                       3: [*range(81, 227)] + [*range(368, 380)] + [*range(398, 1161)] +
-                          [*range(1167, 1197)],
-                       4: [*range(67, 154)] + [*range(406, 429)] + [*range(464, 1104)],
-                       5: [*range(178, 347)] + [*range(1328, 1395)] + [*range(1547, 3000)] +
-                          [*range(3010, 3071)]},
+                       3: ([*range(81, 227)] + [*range(368, 380)]
+                           + [*range(398, 1161)] + [*range(1167, 1197)]),
+                       4: ([*range(67, 154)] + [*range(406, 429)]
+                           + [*range(464, 1104)]),
+                       5: ([*range(178, 347)] + [*range(1328, 1395)]
+                           + [*range(1547, 3000)] + [*range(3010, 3071)])},
                       "german":
                           {1: [*range(0, 8)],
                            2: [*range(12, 92)] + [*range(104, 181)],
-                           3: [*range(99, 517)] + [*range(739, 753)] + [*range(770, 1369)],
-                           4: [*range(67, 274)] + [*range(576, 600)] + [*range(628, 1003)],
-                           5: [*range(151, 482)] + [*range(1360, 1419)] + [*range(1520, 2262)]},
+                           3: ([*range(99, 517)] + [*range(739, 753)]
+                               + [*range(770, 1369)]),
+                           4: ([*range(67, 274)] + [*range(576, 600)]
+                               + [*range(628, 1003)]),
+                           5: ([*range(151, 482)] + [*range(1360, 1419)]
+                               + [*range(1520, 2262)])},
                       "english":
                           {1: [*range(6, 24)],
                            2: [*range(85, 278)] + [*range(317, 589)],
-                           3: [*range(671, 2085)] + [*range(3038, 6863)] + [*range(6873, 6877)],
-                           4: [*range(515, 1389)] + [*range(3207, 6660)] + [*range(6664, 6667)],
-                           5: [*range(1312, 3120)] + [*range(10447, 19407)] + [*range(19416, 19420)]},
+                           3: ([*range(671, 2085)] + [*range(3038, 6863)]
+                               + [*range(6873, 6877)]),
+                           4: ([*range(515, 1389)] + [*range(3207, 6660)]
+                               + [*range(6664, 6667)]),
+                           5: ([*range(1312, 3120)] + [*range(10447, 19407)]
+                               + [*range(19416, 19420)])},
                       "english-fiction":
                           {1: [*range(0, 1)],
                            2: [*range(1, 47)],
@@ -129,10 +139,12 @@ langcode = {"english": "eng", "english-us": "eng-us", "english-gb": "eng-gb",
             "italian": "ita", "russian": "rus", "spanish": "spa"}
 
 def urllistfile(lang, n):
-    return f"source-data/data_googlebooks-{langcode[lang]}-20200217/filelinklist_{n}grams.txt"
+    return (f"source-data/data_googlebooks-{langcode[lang]}-20200217/"
+            + f"filelinklist_{n}grams.txt")
 
 def totalcounts_1_file(lang):
-    return f"source-data/data_googlebooks-{langcode[lang]}-20200217/totalcounts_1.txt"
+    return (f"source-data/data_googlebooks-{langcode[lang]}-20200217/"
+            + "totalcounts_1.txt"
 
 def tmp_path(lang):
 
@@ -289,7 +301,8 @@ def download_and_process_one_gz_file2(lang, n, urls, i):
     gz_file_url = urls[i]
 
     lenurls = len(urls)
-    print(f"starting: lang={lang}, n={n}, file {i+1:0{len(str(lenurls))}} of {lenurls}")
+    print((f"starting: lang={lang}, n={n}, "
+           + f"file {i+1:0{len(str(lenurls))}} of {lenurls}"))
 
     # create out name and path from url
     gz_filename = gz_file_url.split(sep="/")[-1]
@@ -300,7 +313,8 @@ def download_and_process_one_gz_file2(lang, n, urls, i):
     start = timer()
     get_most_freq_from_gz_file2(gz_file_url, lang, n)
     end = timer()
-    print(f"finished: lang={lang}, n={n}, file {i+1:0{len(str(lenurls))}} of {lenurls}: {round(end - start, 2)}s")
+    print((f"finished: lang={lang}, n={n}, file {i+1:0{len(str(lenurls))}}"
+           f" of {lenurls}: {round(end - start, 2)}s"))
     #print(f"processing time: {round(end - start, 2)}s")
 
     # remove file after to save space
@@ -308,7 +322,7 @@ def download_and_process_one_gz_file2(lang, n, urls, i):
 
 
 def get_urls(lang, n):
-    """Returns a list of urls from which we actually want to download a file."""
+    """Returns a list of urls from which to actually download a file."""
 
     urls = list()
 
@@ -322,17 +336,21 @@ def get_urls(lang, n):
     if not redownload_files:
         urls_already_downloaded = os.listdir(per_gz_file_path(lang))
         p = re.compile(f"^ngrams_{n}-.*\.gz\.csv")
-        urls_already_downloaded = [s for s in urls_already_downloaded if p.match(s)]
+        urls_already_downloaded =
+            [s for s in urls_already_downloaded if p.match(s)]
         urls_short = ["ngrams_" + url.split("/")[-1] + ".csv" for url in urls]
 
-        urls = [urls[i] for i in range(len(urls_short)) if urls_short[i] not in urls_already_downloaded]
+        urls = [urls[i] for i in range(len(urls_short))
+                if urls_short[i] not in urls_already_downloaded]
 
     return urls
 
 
 def download_and_process_each_gz_file():
-    """Download and process each .gz file for each language in 'langs',
-    and each n in 'ns' into raw, uncleaned .csv files of the most frequent n-grams."""
+    """Download and process .gz-files.
+    Only .gz-files for language in 'langs' and n in 'ns' are considered.
+    Output: raw, uncleaned .csv files of the most frequent n-grams.
+    """
 
     for lang in langs:
 
@@ -349,8 +367,10 @@ def download_and_process_each_gz_file():
 
 
 def download_and_process_each_gz_file_mp():
-    """Download and process each .gz file for each language in 'langs',
-    and each n in 'ns' into raw, uncleaned .csv files of the most frequent n-grams."""
+    """Download and process .gz-files using multiple processes.
+    Only .gz-files for language in 'langs' and n in 'ns' are considered.
+    Output: raw, uncleaned .csv files of the most frequent n-grams.
+    """
 
     for lang in langs:
 
@@ -364,7 +384,8 @@ def download_and_process_each_gz_file_mp():
 
                 if number_of_cores > 1:
                     pool = mp.Pool(number_of_cores)
-                    func = partial(download_and_process_one_gz_file2, lang, n, urls)
+                    func = partial(download_and_process_one_gz_file2,
+                                   lang, n, urls)
                     pool.map(func, [i for i in range(len(urls))])
                     pool.close()
                     pool.join()
@@ -377,8 +398,7 @@ def download_and_process_each_gz_file_mp():
 
 
 ###############################################################################
-# run
+# Run
 
 if __name__ == '__main__':
     download_and_process_each_gz_file_mp()
-

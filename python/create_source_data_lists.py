@@ -24,11 +24,16 @@ def create_source_data_lists(langcode):
 
         for key, langc in langcode.items():
             
-            if not os.path.exists(f"source-data/data_googlebooks-{langc}-20200217/"):
-                os.makedirs(f"source-data/data_googlebooks-{langc}-20200217/")
+            if not os.path.exists(("source-data/data_googlebooks-"
+                                   + f"{langc}-20200217/")):
+                os.makedirs(("source-data/data_googlebooks-"
+                             + f"{langc}-20200217/"))
 
             http = httplib2.Http()
-            status, response = http.request(f"http://storage.googleapis.com/books/ngrams/books/20200217/{langc}/{langc}-{n}-ngrams_exports.html")
+            status, response = http.request(("http://storage.googleapis.com/"
+                                             + "books/ngrams/books/20200217/"
+                                             + f"{langc}/{langc}-{n}-"
+                                             + "ngrams_exports.html"))
 
             urls = []
             for link in BeautifulSoup(response, parse_only=SoupStrainer('a')):
@@ -38,15 +43,18 @@ def create_source_data_lists(langcode):
                     if re.match(r".*gz$", link['href']):
                         urls += [link['href']]
 
-                    elif (n == 1) & (re.match(r".*totalcounts-1$", link['href']) is not None):
-                        filename = f"source-data/data_googlebooks-{langc}-20200217/totalcounts_1.txt"
+                    elif (n == 1) & (re.match(r".*totalcounts-1$",
+                                              link['href']) is not None):
+                        filename = ("source-data/data_googlebooks-"
+                                    + f"{langc}-20200217/totalcounts_1.txt")
                         
                         if os.path.exists(filename):
                             os.remove(filename)
                         
                         wget.download(link['href'], filename)
 
-            with open(f"source-data/data_googlebooks-{langc}-20200217/filelinklist_{n}grams.txt", 'w') as f:
+            with open((f"source-data/data_googlebooks-{langc}-"
+                       + f"20200217/filelinklist_{n}grams.txt", 'w')) as f:
 
                 for url in urls:
                     f.write("%s\n" % url)
