@@ -22,6 +22,19 @@ All cleaned lists also contain the number of times each n-gram occurs in the cor
 1. `cumshare` which for each word contains the cumulative share of all words in the corpus made up by that word and all more frequent words. 
 2. `en` which contains the English translation of the word obtained using the [Google Cloud Translate API](https://cloud.google.com/translate) (only for non-English languages).
 
+Here are the first 10 rows of [1grams_french.csv](ngrams/1grams_french.csv):
+| ngram |       freq | cumshare | en     |
+|:-----:|-----------:|---------:|:------:|
+| de    | 1380202965 |    0.048 | of     |
+| la    |  823756863 |    0.077 | the    |
+| et    |  651571349 |    0.100 | and    |
+| le    |  614855518 |    0.121 | the    |
+| à     |  577644624 |    0.142 | at     |
+| l'    |  527188618 |    0.160 | the    |
+| les   |  503689143 |    0.178 | them   |
+| en    |  390657918 |    0.191 | in     |
+| des   |  384774428 |    0.205 | of the |
+
 The lists found directly in the [ngrams](ngrams) directory have been cleaned and are intended for use when developing language-learning materials. The sub-directory [ngrams/more](ngrams/more) contains uncleaned and less cleaned versions which might be of use for e.g. linguists:
 
 - the most frequent raw n-grams as Google stores them (suffixed `0_raw`),
@@ -134,6 +147,8 @@ When manually deciding which words to include and exlude the following rules wer
 ## Related work
 
 For a carefully created list of all words in the English part of the Google Books Ngram Corpus (version 20200217), sorted by frequency, see the [hackerb9/gwordlist](https://github.com/hackerb9/gwordlist) repository.
+
+An extensive list of frequency lists in many languages is available on [Wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists).
 
 
 ## Limitations and known problems
