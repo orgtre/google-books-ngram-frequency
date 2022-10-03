@@ -5,9 +5,9 @@ This repository provides cleaned lists of the most frequent words and [n-grams](
 
 ## Lists with n-grams
 
-Lists with the most frequent N-grams are provided separately by language and n. Available langues are Chinese (simplified), English, English Fiction, French, German, Hebrew, Italian, Russian, and Spanish. N ranges from 1 to 5. In the provided lists the language subcorpora are restricted to books published in the years 2010-2019, but in the Python code both this and the number of most frequent n-grams included can be adjusted.
+Lists with the most frequent n-grams are provided separately by language and n. Available languages are Chinese (simplified), English, English Fiction, French, German, Hebrew, Italian, Russian, and Spanish. n ranges from 1 to 5. In the provided lists the language subcorpora are restricted to books published in the years 2010-2019, but in the Python code both this and the number of most frequent n-grams included can be adjusted.
 
-The lists are found in the [ngrams](ngrams) directory. For almost all languages cleaned lists are provided for the
+The lists are found in the [ngrams](ngrams) directory. For all languages except Hebrew cleaned lists are provided for the
 
 - 10.000 most frequent 1-grams, 
 - 5.000 most frequent 2-grams, 
@@ -15,7 +15,7 @@ The lists are found in the [ngrams](ngrams) directory. For almost all languages 
 - 1.000 most frequent 4-grams,
 - 1.000 most frequent 5-grams.
 
-The one exception is Hebrew for which, due to the small corpus size, only the 200 most frequent 4-grams and 80 most frequent 5-grams are provided. 
+For Hebrew, due to the small corpus size, only the 200 most frequent 4-grams and 80 most frequent 5-grams are provided.
 
 All cleaned lists also contain the number of times each n-gram occurs in the corpus (its frequency, column `freq`). For 1-grams (words) there are two additional columns: 
 
@@ -52,7 +52,7 @@ To provide some motivation for why leaning the most frequent words first may be 
   <img alt="graph_1grams_cumshare_rank_*.svg" src="graph_1grams_cumshare_rank_light.svg" width="100%">
 </picture>
 
-For each language, it plots the frequency rank of each 1-gram (i.e. word) on the x-axis and the `cumshare` on the y-axis. So, for example, after learning the 1000 most frequent French words, one can understand more than 70% of all words, counted with duplicates, occuring in a typical book published between 2010 and 2019 in version 20200217 of the French Google Books Ngram Corpus.
+For each language, it plots the frequency rank of each 1-gram (i.e. word) on the x-axis and the `cumshare` on the y-axis. So, for example, after learning the 1000 most frequent French words, one can understand more than 70% of all words, counted with duplicates, occurring in a typical book published between 2010 and 2019 in version 20200217 of the French Google Books Ngram Corpus.
 
 For n-grams other than 1-grams the returns to learning the most frequent ones are not as steep, as there are so many possible combinations of words. Still, people tend to learn better when learning things in context, so one use of them could be to find common example phrases for each 1-gram. Another approach is the following: Say one wants to learn the 1000 most common words in some language. Then one could, for example, create a minimal list of the most common 4-grams which include these 1000 words and learn it.
 
@@ -61,7 +61,7 @@ Although the n-gram lists have been cleaned with language learning in mind and c
 
 ## The underlying corpus
 
-This repository is based on the Google Books Ngram Corpus Version 3 (with version identifier 20200217), made available by Google as n-gram lists [here](https://storage.googleapis.com/books/ngrams/books/datasetsv3.html). This is also the data that underlies the [Google Books Ngram Viewer](https://books.google.com/ngrams/). The corpus is a subset, selected by Google based on the quality of optical character recognition and metadata, of the books digitalized by Google and contains around 6% of all books ever published ([1](https://doi.org/10.1126/science.1199644), [2](https://dl.acm.org/doi/abs/10.5555/2390470.2390499), [3](https://doi.org/10.1371%2Fjournal.pone.0137041)).
+This repository is based on the Google Books Ngram Corpus Version 3 (with version identifier 20200217), made available by Google as n-gram lists [here](https://storage.googleapis.com/books/ngrams/books/datasetsv3.html). This is also the data that underlies the [Google Books Ngram Viewer](https://books.google.com/ngrams/). The corpus is a subset, selected by Google based on the quality of optical character recognition and metadata, of the books digitized by Google and contains around 6% of all books ever published ([1](https://doi.org/10.1126/science.1199644), [2](https://dl.acm.org/doi/abs/10.5555/2390470.2390499), [3](https://doi.org/10.1371%2Fjournal.pone.0137041)).
 
 When assessing the quality of a corpus, both its size and its representativeness of the kind of material one is interested in are important. 
 
@@ -103,7 +103,7 @@ The code producing everything is in the [python](python) directory. Each .py-fil
 
 Optionally, start by running [create_source_data_lists.py](python/create_source_data_lists.py) from the repository root directory to recreate the [source-data](source-data) folder with lists of links to the Google source data files.
 
-Run [download_and_extract_most_freq.py](python/download_and_extract_most_freq.py) from the repository root directory to dowload each file listed in [source-data](source-data) (a ".gz-file") and extract the most frequent n-grams in it into a list saved in `ngrams/more/{lang}/most_freq_ngrams_per_gz_file`. To save computer resources each .gz-file is immediately deleted after this. Since the lists of most frequent n-grams per .gz-file still take up around 36GB with the default settings, only one example list is uploaded to Github: [ngrams_1-00006-of-00024.gz.csv](ngrams/more/english/most_freq_ngrams_per_gz_file/ngrams_1-00006-of-00024.gz.csv). No cleaning has been performed at this stage, so this is how the raw data looks.
+Run [download_and_extract_most_freq.py](python/download_and_extract_most_freq.py) from the repository root directory to download each file listed in [source-data](source-data) (a ".gz-file") and extract the most frequent n-grams in it into a list saved in `ngrams/more/{lang}/most_freq_ngrams_per_gz_file`. To save computer resources each .gz-file is immediately deleted after this. Since the lists of most frequent n-grams per .gz-file still take up around 36GB with the default settings, only one example list is uploaded to GitHub: [ngrams_1-00006-of-00024.gz.csv](ngrams/more/english/most_freq_ngrams_per_gz_file/ngrams_1-00006-of-00024.gz.csv). No cleaning has been performed at this stage, so this is how the raw data looks.
 
 Run [gather_and_clean.py](python/gather_and_clean.py) to gather all the n-grams into lists of the overall most frequent ones and clean these lists (see the next section for details).
 
@@ -141,7 +141,7 @@ Moreover, the following cleaning steps have been performed manually, using the E
 17. When n-grams wrongly included or excluded were found during the manual cleaning steps above, this was corrected for by either adjusting the programmatic rules, or by adding them to one of the lists of exceptions, or by adding them to the final lists of extra n-grams to exclude.
 18. n-grams in the manually created lists of extra n-grams to exclude have been removed. These lists are in [python/extra_settings](python/extra_settings) and named `extra_{n}grams_to_exclude.csv`.
 
-When manually deciding which words to include and exlude the following rules were applied. _Exclude_: person names (some exceptions: Jesus, God), city names (some exceptions: if differ a lot from English and are common enough), company names, abbreviations (some exceptions, e.g. ma, pa), word parts, words in the wrong language (except if in common use). _Do not exlude_: country names, names for ethnic/national groups of people, geographical names (e.g. rivers, oceans), colloquial terms, interjections.
+When manually deciding which words to include and exclude the following rules were applied. _Exclude_: person names (some exceptions: Jesus, God), city names (some exceptions: if differ a lot from English and are common enough), company names, abbreviations (some exceptions, e.g. ma, pa), word parts, words in the wrong language (except if in common use). _Do not exclude_: country names, names for ethnic/national groups of people, geographical names (e.g. rivers, oceans), colloquial terms, interjections.
 
 
 ## Related work
