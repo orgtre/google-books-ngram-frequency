@@ -144,7 +144,7 @@ def urllistfile(lang, n):
 
 def totalcounts_1_file(lang):
     return (f"source-data/data_googlebooks-{langcode[lang]}-20200217/"
-            + "totalcounts_1.txt"
+            + "totalcounts_1.txt")
 
 def tmp_path(lang):
 
@@ -195,7 +195,7 @@ def extract_ngram_sum_freq(line):
         yfs = yf.split(",")
         year_now = int(yfs[0])
 
-        if year_now >= year_start & year_now <= year_end:
+        if year_now >= year_start and year_now <= year_end:
 
             freq += int(yfs[1])
 
@@ -336,7 +336,7 @@ def get_urls(lang, n):
     if not redownload_files:
         urls_already_downloaded = os.listdir(per_gz_file_path(lang))
         p = re.compile(f"^ngrams_{n}-.*\.gz\.csv")
-        urls_already_downloaded =
+        urls_already_downloaded = \
             [s for s in urls_already_downloaded if p.match(s)]
         urls_short = ["ngrams_" + url.split("/")[-1] + ".csv" for url in urls]
 
