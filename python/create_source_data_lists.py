@@ -53,8 +53,8 @@ def create_source_data_lists(langcode):
                         
                         wget.download(link['href'], filename)
 
-            with open((f"source-data/data_googlebooks-{langc}-"
-                       + f"20200217/filelinklist_{n}grams.txt", 'w')) as f:
+            with open(f"source-data/data_googlebooks-{langc}-"
+                       + f"20200217/filelinklist_{n}grams.txt", 'w') as f:
 
                 for url in urls:
                     f.write("%s\n" % url)
